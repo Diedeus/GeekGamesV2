@@ -1,0 +1,1626 @@
+{
+	"portrait": [
+		{
+			"id": "background",
+			"tagName": "DIV",
+			"classes": "background",
+			"style": {
+				"style": {
+					"position": "absolute",
+					"width": "100svw",
+					"height": "100svh",
+					"background-color": "#91b2f2"
+				},
+				"text": ""
+			}
+		}
+	],
+	"paysage": [
+		{
+			"id": "lab_DIV_95129",
+			"tagName": "SECTION",
+			"attributes": [],
+			"style": {
+				"style": {
+					"position": "absolute",
+					"width": "100svw",
+					"height": "100svh",
+					"background-color": "rgb(60, 76, 166)",
+					"display": "flex",
+					"flex-direction": "column",
+					"align-items": "center"
+				},
+				"text": "",
+				"textArray": []
+			}
+		},
+		{
+			"id": "popUpGestionUser_container",
+			"tagName": "SECTION",
+			"attributes": [],
+			"style": {
+				"style": {
+					"position": "fixed",
+					"width": "100svw",
+					"height": "100svh",
+					"background-color": "rgba(0, 0, 0, 0.77)",
+					"display": "none"
+				},
+				"text": "",
+				"textArray": []
+			}
+		},
+		{
+			"id": "popUpGestionQuizz_container",
+			"tagName": "SECTION",
+			"attributes": [],
+			"style": {
+				"style": {
+					"position": "fixed",
+					"width": "100svw",
+					"height": "100svh",
+					"background-color": "rgba(0, 0, 0, 0.77)",
+					"display": "none"
+				},
+				"text": "",
+				"textArray": []
+			}
+		},
+		{
+			"id": "lab_DIV_30830",
+			"tagName": "DIV",
+			"attributes": [],
+			"style": {
+				"parent": "lab_DIV_95129",
+				"style": {
+					"width": "100%",
+					"height": "11%",
+					"display": "flex",
+					"align-items": "center",
+					"justify-content": "space-around",
+					"z-index": "1"
+				},
+				"text": "",
+				"textArray": []
+			}
+		},
+		{
+			"id": "lab_DIV_57073",
+			"tagName": "DIV",
+			"attributes": [],
+			"style": {
+				"parent": "lab_DIV_30830",
+				"style": {
+					"display": "flex",
+					"color": "white",
+					"height": "100%",
+					"width": "20%",
+					"font-family": "\"Montserrat-Regular-(1)\"",
+					"align-items": "center",
+					"justify-content": "space-around",
+					"font-size": "1.8svh"
+				},
+				"text": "",
+				"textArray": []
+			}
+		},
+		{
+			"id": "btn_home",
+			"tagName": "P",
+			"attributes": [],
+			"classes": "btnHead",
+			"style": {
+				"parent": "lab_DIV_57073",
+				"style": {
+					"cursor": "pointer",
+					"margin-top": "0px",
+					"margin-right": "0px",
+					"margin-bottom": "0px",
+					"margin-left": "0px",
+					"padding-top": "0px",
+					"padding-right": "0px",
+					"padding-bottom": "0px",
+					"padding-left": "0px",
+					"width": "5svw",
+					"height": "4svh",
+					"display": "flex",
+					"justify-content": "center",
+					"align-items": "center",
+					"transition-behavior": "normal",
+					"transition-duration": "0.3s",
+					"transition-timing-function": "ease",
+					"transition-delay": "0s",
+					"transition-property": "all"
+				},
+				"text": "ACCUEIL",
+				"textArray": []
+			}
+		},
+		{
+			"id": "btn_credit",
+			"tagName": "P",
+			"attributes": [],
+			"classes": "btnHead",
+			"style": {
+				"parent": "lab_DIV_57073",
+				"style": {
+					"cursor": "pointer",
+					"margin-top": "0px",
+					"margin-right": "0px",
+					"margin-bottom": "0px",
+					"margin-left": "0px",
+					"padding-top": "0px",
+					"padding-right": "0px",
+					"padding-bottom": "0px",
+					"padding-left": "0px",
+					"width": "5svw",
+					"height": "4svh",
+					"display": "flex",
+					"justify-content": "center",
+					"align-items": "center",
+					"transition-behavior": "normal",
+					"transition-duration": "0.3s",
+					"transition-timing-function": "ease",
+					"transition-delay": "0s",
+					"transition-property": "all"
+				},
+				"text": "CREDITS",
+				"textArray": []
+			}
+		},
+		{
+			"id": "btn_contactUs",
+			"tagName": "P",
+			"attributes": [],
+			"classes": "btnHead",
+			"style": {
+				"parent": "lab_DIV_57073",
+				"style": {
+					"cursor": "pointer",
+					"margin-top": "0px",
+					"margin-right": "0px",
+					"margin-bottom": "0px",
+					"margin-left": "0px",
+					"padding-top": "0px",
+					"padding-right": "0px",
+					"padding-bottom": "0px",
+					"padding-left": "0px",
+					"width": "9svw",
+					"height": "4svh",
+					"display": "flex",
+					"justify-content": "center",
+					"align-items": "center",
+					"transition-behavior": "normal",
+					"transition-duration": "0.3s",
+					"transition-timing-function": "ease",
+					"transition-delay": "0s",
+					"transition-property": "all"
+				},
+				"text": "NOUS CONTACTER",
+				"textArray": []
+			}
+		},
+		{
+			"id": "lab_DIV_48011",
+			"tagName": "DIV",
+			"attributes": [],
+			"style": {
+				"parent": "lab_DIV_30830",
+				"style": {
+					"display": "flex",
+					"color": "white",
+					"height": "100%",
+					"width": "35%",
+					"font-family": "\"Montserrat-Regular-(1)\"",
+					"align-items": "center",
+					"justify-content": "space-around",
+					"font-size": "1.8svh"
+				},
+				"text": "",
+				"textArray": []
+			}
+		},
+		{
+			"id": "searchBarGame",
+			"tagName": "INPUT",
+			"attributes": [
+				{
+					"attributeName": "type",
+					"attributeValue": "text"
+				},
+				{
+					"attributeName": "placeholder",
+					"attributeValue": "Recherchez un jeu..."
+				}
+			],
+			"style": {
+				"parent": "lab_DIV_48011",
+				"style": {
+					"width": "15svw",
+					"height": "3svh"
+				},
+				"text": "",
+				"textArray": []
+			}
+		},
+		{
+			"id": "btn_profil",
+			"tagName": "P",
+			"attributes": [],
+			"classes": "btnHead",
+			"style": {
+				"parent": "lab_DIV_48011",
+				"style": {
+					"display": "flex",
+					"cursor": "pointer",
+					"margin-top": "0px",
+					"margin-right": "0px",
+					"margin-bottom": "0px",
+					"margin-left": "0px",
+					"padding-top": "0px",
+					"padding-right": "0px",
+					"padding-bottom": "0px",
+					"padding-left": "0px",
+					"width": "10svw",
+					"height": "4svh",
+					"justify-content": "center",
+					"align-items": "center",
+					"transition-behavior": "normal",
+					"transition-duration": "0.3s",
+					"transition-timing-function": "ease",
+					"transition-delay": "0s",
+					"transition-property": "all"
+				},
+				"text": "BONJOUR PROFIL",
+				"textArray": []
+			}
+		},
+		{
+			"id": "btn_deconnect",
+			"tagName": "P",
+			"attributes": [],
+			"classes": "btnHead",
+			"style": {
+				"parent": "lab_DIV_48011",
+				"style": {
+					"display": "flex",
+					"cursor": "pointer",
+					"margin-top": "0px",
+					"margin-right": "0px",
+					"margin-bottom": "0px",
+					"margin-left": "0px",
+					"padding-top": "0px",
+					"padding-right": "0px",
+					"padding-bottom": "0px",
+					"padding-left": "0px",
+					"width": "9svw",
+					"height": "4svh",
+					"justify-content": "center",
+					"align-items": "center",
+					"transition-behavior": "normal",
+					"transition-duration": "0.3s",
+					"transition-timing-function": "ease",
+					"transition-delay": "0s",
+					"transition-property": "all"
+				},
+				"text": "DECONNEXION",
+				"textArray": []
+			}
+		},
+		{
+			"id": "lab_SECTION_73719",
+			"tagName": "SECTION",
+			"attributes": [],
+			"style": {
+				"parent": "lab_DIV_95129",
+				"style": {
+					"width": "90%",
+					"height": "80%",
+					"border-top-width": "3px",
+					"border-right-width": "3px",
+					"border-bottom-width": "3px",
+					"border-left-width": "3px",
+					"border-top-style": "solid",
+					"border-right-style": "solid",
+					"border-bottom-style": "solid",
+					"border-left-style": "solid",
+					"border-top-color": "rgb(162, 156, 193)",
+					"border-right-color": "rgb(162, 156, 193)",
+					"border-bottom-color": "rgb(162, 156, 193)",
+					"border-left-color": "rgb(162, 156, 193)",
+					"border-image-source": "initial",
+					"border-image-slice": "initial",
+					"border-image-width": "initial",
+					"border-image-outset": "initial",
+					"border-image-repeat": "initial",
+					"border-top-left-radius": "40px",
+					"border-top-right-radius": "40px"
+				},
+				"text": "",
+				"textArray": []
+			}
+		},
+		{
+			"id": "lab_DIV_1424",
+			"tagName": "DIV",
+			"attributes": [],
+			"style": {
+				"parent": "lab_SECTION_73719",
+				"style": {
+					"width": "100%",
+					"height": "10%",
+					"display": "flex",
+					"color": "white",
+					"justify-content": "space-around",
+					"align-items": "center",
+					"font-family": "\"Montserrat-Regular-(1)\"",
+					"font-size": "2.5svh",
+					"border-bottom-width": "3px",
+					"border-bottom-style": "solid",
+					"border-bottom-color": "rgb(162, 156, 193)"
+				},
+				"text": "",
+				"textArray": []
+			}
+		},
+		{
+			"id": "affUser",
+			"tagName": "DIV",
+			"attributes": [],
+			"style": {
+				"parent": "lab_DIV_1424",
+				"style": {
+					"width": "20%",
+					"height": "100%",
+					"display": "flex",
+					"justify-content": "center",
+					"align-items": "center",
+					"cursor": "pointer"
+				},
+				"text": "Utilisateur",
+				"textArray": []
+			}
+		},
+		{
+			"id": "affQuizz",
+			"tagName": "DIV",
+			"attributes": [],
+			"style": {
+				"parent": "lab_DIV_1424",
+				"style": {
+					"width": "20%",
+					"height": "100%",
+					"display": "flex",
+					"justify-content": "center",
+					"align-items": "center",
+					"cursor": "pointer"
+				},
+				"text": "Quiz",
+				"textArray": []
+			}
+		},
+		{
+			"id": "aff7Diff",
+			"tagName": "DIV",
+			"attributes": [],
+			"style": {
+				"parent": "lab_DIV_1424",
+				"style": {
+					"width": "20%",
+					"height": "100%",
+					"display": "flex",
+					"justify-content": "center",
+					"align-items": "center",
+					"cursor": "pointer"
+				},
+				"text": "Sept différences",
+				"textArray": []
+			}
+		},
+		{
+			"id": "affJustePrix",
+			"tagName": "DIV",
+			"attributes": [],
+			"style": {
+				"parent": "lab_DIV_1424",
+				"style": {
+					"width": "20%",
+					"height": "100%",
+					"display": "flex",
+					"justify-content": "center",
+					"align-items": "center",
+					"cursor": "pointer"
+				},
+				"text": "Juste prix",
+				"textArray": []
+			}
+		},
+		{
+			"id": "adminUser",
+			"tagName": "DIV",
+			"attributes": [],
+			"style": {
+				"parent": "lab_SECTION_73719",
+				"style": {
+					"width": "100%",
+					"height": "90%",
+					"display": "none"
+				},
+				"text": "",
+				"textArray": []
+			}
+		},
+		{
+			"id": "lab_DIV_48199",
+			"tagName": "DIV",
+			"attributes": [],
+			"style": {
+				"parent": "adminUser",
+				"style": {
+					"width": "25%",
+					"height": "100%"
+				},
+				"text": "",
+				"textArray": []
+			}
+		},
+		{
+			"id": "lab_FORM_83750",
+			"tagName": "FORM",
+			"attributes": [],
+			"style": {
+				"parent": "lab_DIV_48199",
+				"style": {
+					"display": "flex",
+					"flex-direction": "column",
+					"align-items": "center",
+					"justify-content": "space-around",
+					"width": "90%",
+					"height": "90%"
+				},
+				"text": "",
+				"textArray": []
+			}
+		},
+		{
+			"id": "pseudo_newUser",
+			"tagName": "INPUT",
+			"attributes": [
+				{
+					"attributeName": "type",
+					"attributeValue": "text"
+				},
+				{
+					"attributeName": "placeholder",
+					"attributeValue": "Quel est son pseudo"
+				}
+			],
+			"style": {
+				"parent": "lab_FORM_83750",
+				"style": {
+					"width": "60%",
+					"height": "6%",
+					"font-family": "\"Montserrat-Regular-(1)\"",
+					"text-indent": "5%"
+				},
+				"text": "",
+				"textArray": []
+			}
+		},
+		{
+			"id": "mail_newUser",
+			"tagName": "INPUT",
+			"attributes": [
+				{
+					"attributeName": "type",
+					"attributeValue": "text"
+				},
+				{
+					"attributeName": "placeholder",
+					"attributeValue": "Quel est son mail?"
+				}
+			],
+			"style": {
+				"parent": "lab_FORM_83750",
+				"style": {
+					"width": "60%",
+					"height": "6%",
+					"font-family": "\"Montserrat-Regular-(1)\"",
+					"text-indent": "5%"
+				},
+				"text": "",
+				"textArray": []
+			}
+		},
+		{
+			"id": "name_newUser",
+			"tagName": "INPUT",
+			"attributes": [
+				{
+					"attributeName": "type",
+					"attributeValue": "text"
+				},
+				{
+					"attributeName": "placeholder",
+					"attributeValue": "Quel est son nom de famille"
+				}
+			],
+			"style": {
+				"parent": "lab_FORM_83750",
+				"style": {
+					"width": "60%",
+					"height": "6%",
+					"font-family": "\"Montserrat-Regular-(1)\"",
+					"text-indent": "5%"
+				},
+				"text": "",
+				"textArray": []
+			}
+		},
+		{
+			"id": "firstName_newUser",
+			"tagName": "INPUT",
+			"attributes": [
+				{
+					"attributeName": "type",
+					"attributeValue": "text"
+				},
+				{
+					"attributeName": "placeholder",
+					"attributeValue": "Quel est son prénom"
+				}
+			],
+			"style": {
+				"parent": "lab_FORM_83750",
+				"style": {
+					"width": "60%",
+					"height": "6%",
+					"font-family": "\"Montserrat-Regular-(1)\"",
+					"text-indent": "5%"
+				},
+				"text": "",
+				"textArray": []
+			}
+		},
+		{
+			"id": "password_newUser",
+			"tagName": "INPUT",
+			"attributes": [
+				{
+					"attributeName": "type",
+					"attributeValue": "password"
+				},
+				{
+					"attributeName": "placeholder",
+					"attributeValue": "Quel est son mot de passe"
+				}
+			],
+			"style": {
+				"parent": "lab_FORM_83750",
+				"style": {
+					"width": "60%",
+					"height": "6%",
+					"font-family": "\"Montserrat-Regular-(1)\"",
+					"text-indent": "5%"
+				},
+				"text": "",
+				"textArray": []
+			}
+		},
+		{
+			"id": "confPassword_newUser",
+			"tagName": "INPUT",
+			"attributes": [
+				{
+					"attributeName": "type",
+					"attributeValue": "password"
+				},
+				{
+					"attributeName": "placeholder",
+					"attributeValue": "Confirmer son mot de passe"
+				}
+			],
+			"style": {
+				"parent": "lab_FORM_83750",
+				"style": {
+					"width": "60%",
+					"height": "6%",
+					"font-family": "\"Montserrat-Regular-(1)\"",
+					"text-indent": "5%"
+				},
+				"text": "",
+				"textArray": []
+			}
+		},
+		{
+			"id": "isAdmin_newUser",
+			"tagName": "INPUT",
+			"attributes": [
+				{
+					"attributeName": "type",
+					"attributeValue": "text"
+				},
+				{
+					"attributeName": "placeholder",
+					"attributeValue": " 0 pour non admin, 1 pour admin"
+				}
+			],
+			"style": {
+				"parent": "lab_FORM_83750",
+				"style": {
+					"width": "60%",
+					"height": "6%",
+					"font-family": "\"Montserrat-Regular-(1)\"",
+					"text-indent": "5%"
+				},
+				"text": "",
+				"textArray": []
+			}
+		},
+		{
+			"id": "btn_createUser",
+			"tagName": "DIV",
+			"attributes": [],
+			"style": {
+				"parent": "lab_FORM_83750",
+				"style": {
+					"background-color": "white",
+					"width": "61%",
+					"height": "7%",
+					"display": "flex",
+					"justify-content": "center",
+					"align-items": "center",
+					"font-family": "Montserrat-Bold",
+					"color": "rgb(60, 45, 135)",
+					"border-top-left-radius": "20px",
+					"border-top-right-radius": "20px",
+					"border-bottom-right-radius": "20px",
+					"border-bottom-left-radius": "20px",
+					"cursor": "pointer"
+				},
+				"text": "Ajoutez l'utilisateur",
+				"textArray": []
+			}
+		},
+		{
+			"id": "lab_DIV_60854",
+			"tagName": "DIV",
+			"attributes": [],
+			"style": {
+				"parent": "adminUser",
+				"style": {
+					"width": "75%",
+					"height": "100%"
+				},
+				"text": "",
+				"textArray": []
+			}
+		},
+		{
+			"id": "lab_TABLE_2583",
+			"tagName": "TABLE",
+			"attributes": [],
+			"style": {
+				"parent": "lab_DIV_60854",
+				"style": {
+					"width": "100%",
+					"max-height": "100%",
+					"overflow-y": "scroll"
+				},
+				"text": "",
+				"textArray": []
+			}
+		},
+		{
+			"id": "lab_THEAD_68337",
+			"tagName": "THEAD",
+			"attributes": [],
+			"style": {
+				"parent": "lab_TABLE_2583",
+				"style": {},
+				"text": "",
+				"textArray": []
+			}
+		},
+		{
+			"id": "lab_TR_38737",
+			"tagName": "TR",
+			"attributes": [],
+			"style": {
+				"parent": "lab_THEAD_68337",
+				"style": {},
+				"text": "",
+				"textArray": []
+			}
+		},
+		{
+			"id": "lab_TH_14808",
+			"tagName": "TH",
+			"attributes": [],
+			"style": {
+				"parent": "lab_TR_38737",
+				"style": {
+					"background-color": "white",
+					"color": "rgb(60, 45, 135)",
+					"width": "5%"
+				},
+				"text": "ID",
+				"textArray": []
+			}
+		},
+		{
+			"id": "lab_TH_74025",
+			"tagName": "TH",
+			"attributes": [],
+			"style": {
+				"parent": "lab_TR_38737",
+				"style": {
+					"background-color": "white",
+					"color": "rgb(60, 45, 135)",
+					"width": "14%"
+				},
+				"text": "Pseudo",
+				"textArray": []
+			}
+		},
+		{
+			"id": "lab_TH_14720",
+			"tagName": "TH",
+			"attributes": [],
+			"style": {
+				"parent": "lab_TR_38737",
+				"style": {
+					"background-color": "white",
+					"color": "rgb(60, 45, 135)",
+					"width": "23%"
+				},
+				"text": "Mail",
+				"textArray": []
+			}
+		},
+		{
+			"id": "lab_TH_50408",
+			"tagName": "TH",
+			"attributes": [],
+			"style": {
+				"parent": "lab_TR_38737",
+				"style": {
+					"background-color": "white",
+					"color": "rgb(60, 45, 135)",
+					"width": "14%"
+				},
+				"text": "Nom",
+				"textArray": []
+			}
+		},
+		{
+			"id": "lab_TH_99043",
+			"tagName": "TH",
+			"attributes": [],
+			"style": {
+				"parent": "lab_TR_38737",
+				"style": {
+					"background-color": "white",
+					"color": "rgb(60, 45, 135)",
+					"width": "14%"
+				},
+				"text": "Prenom",
+				"textArray": []
+			}
+		},
+		{
+			"id": "lab_TH_95230",
+			"tagName": "TH",
+			"attributes": [],
+			"style": {
+				"parent": "lab_TR_38737",
+				"style": {
+					"background-color": "white",
+					"color": "rgb(60, 45, 135)",
+					"width": "22%"
+				},
+				"text": "mot de passe",
+				"textArray": []
+			}
+		},
+		{
+			"id": "lab_TH_27419",
+			"tagName": "TH",
+			"attributes": [],
+			"style": {
+				"parent": "lab_TR_38737",
+				"style": {
+					"background-color": "white",
+					"color": "rgb(60, 45, 135)",
+					"width": "6%"
+				},
+				"text": "admin",
+				"textArray": []
+			}
+		},
+		{
+			"id": "lab_TBODY_2480",
+			"tagName": "TBODY",
+			"attributes": [],
+			"style": {
+				"parent": "lab_TABLE_2583",
+				"style": {
+					"font-family": "\"Montserrat-Regular-(1)\""
+				},
+				"text": "",
+				"textArray": []
+			}
+		},
+		{
+			"id": "adminQuizz",
+			"tagName": "DIV",
+			"attributes": [],
+			"style": {
+				"parent": "lab_SECTION_73719",
+				"style": {
+					"width": "100%",
+					"height": "90%",
+					"display": "flex"
+				},
+				"text": "",
+				"textArray": []
+			}
+		},
+		{
+			"id": "lab_DIV_73328",
+			"tagName": "DIV",
+			"attributes": [],
+			"style": {
+				"parent": "adminQuizz",
+				"style": {
+					"width": "25%",
+					"height": "100%"
+				},
+				"text": "",
+				"textArray": []
+			}
+		},
+		{
+			"id": "lab_FORM_11741",
+			"tagName": "FORM",
+			"attributes": [],
+			"style": {
+				"parent": "lab_DIV_73328",
+				"style": {
+					"display": "flex",
+					"flex-direction": "column",
+					"align-items": "center",
+					"justify-content": "space-around",
+					"width": "90%",
+					"height": "90%"
+				},
+				"text": "",
+				"textArray": []
+			}
+		},
+		{
+			"id": "theQuestion",
+			"tagName": "INPUT",
+			"attributes": [
+				{
+					"attributeName": "type",
+					"attributeValue": "text"
+				},
+				{
+					"attributeName": "placeholder",
+					"attributeValue": "Quel est la question ?"
+				}
+			],
+			"style": {
+				"parent": "lab_FORM_11741",
+				"style": {
+					"width": "60%",
+					"height": "6%",
+					"font-family": "\"Montserrat-Regular-(1)\"",
+					"text-indent": "5%"
+				},
+				"text": "",
+				"textArray": []
+			}
+		},
+		{
+			"id": "reponseA",
+			"tagName": "INPUT",
+			"attributes": [
+				{
+					"attributeName": "type",
+					"attributeValue": "text"
+				},
+				{
+					"attributeName": "placeholder",
+					"attributeValue": "Quel est la réponse A ?"
+				}
+			],
+			"style": {
+				"parent": "lab_FORM_11741",
+				"style": {
+					"width": "60%",
+					"height": "6%",
+					"font-family": "\"Montserrat-Regular-(1)\"",
+					"text-indent": "5%"
+				},
+				"text": "",
+				"textArray": []
+			}
+		},
+		{
+			"id": "reponseB",
+			"tagName": "INPUT",
+			"attributes": [
+				{
+					"attributeName": "type",
+					"attributeValue": "text"
+				},
+				{
+					"attributeName": "placeholder",
+					"attributeValue": "Quel est la réponse B ?"
+				}
+			],
+			"style": {
+				"parent": "lab_FORM_11741",
+				"style": {
+					"width": "60%",
+					"height": "6%",
+					"font-family": "\"Montserrat-Regular-(1)\"",
+					"text-indent": "5%"
+				},
+				"text": "",
+				"textArray": []
+			}
+		},
+		{
+			"id": "reponseC",
+			"tagName": "INPUT",
+			"attributes": [
+				{
+					"attributeName": "type",
+					"attributeValue": "text"
+				},
+				{
+					"attributeName": "placeholder",
+					"attributeValue": "Quel est la réponse C ?"
+				}
+			],
+			"style": {
+				"parent": "lab_FORM_11741",
+				"style": {
+					"width": "60%",
+					"height": "6%",
+					"font-family": "\"Montserrat-Regular-(1)\"",
+					"text-indent": "5%"
+				},
+				"text": "",
+				"textArray": []
+			}
+		},
+		{
+			"id": "reponseD",
+			"tagName": "INPUT",
+			"attributes": [
+				{
+					"attributeName": "type",
+					"attributeValue": "text"
+				},
+				{
+					"attributeName": "placeholder",
+					"attributeValue": "Quel est la réponse D ?"
+				}
+			],
+			"style": {
+				"parent": "lab_FORM_11741",
+				"style": {
+					"width": "60%",
+					"height": "6%",
+					"font-family": "\"Montserrat-Regular-(1)\"",
+					"text-indent": "5%"
+				},
+				"text": "",
+				"textArray": []
+			}
+		},
+		{
+			"id": "reponse",
+			"tagName": "INPUT",
+			"attributes": [
+				{
+					"attributeName": "type",
+					"attributeValue": "text"
+				},
+				{
+					"attributeName": "placeholder",
+					"attributeValue": "Quel est la bonne réponse ?"
+				}
+			],
+			"style": {
+				"parent": "lab_FORM_11741",
+				"style": {
+					"width": "60%",
+					"height": "6%",
+					"font-family": "\"Montserrat-Regular-(1)\"",
+					"text-indent": "5%"
+				},
+				"text": "",
+				"textArray": []
+			}
+		},
+		{
+			"id": "difficulty",
+			"tagName": "INPUT",
+			"attributes": [
+				{
+					"attributeName": "type",
+					"attributeValue": "text"
+				},
+				{
+					"attributeName": "placeholder",
+					"attributeValue": " quel est la difficulté ?"
+				}
+			],
+			"style": {
+				"parent": "lab_FORM_11741",
+				"style": {
+					"width": "60%",
+					"height": "6%",
+					"font-family": "\"Montserrat-Regular-(1)\"",
+					"text-indent": "5%"
+				},
+				"text": "",
+				"textArray": []
+			}
+		},
+		{
+			"id": "btn_createQuizz",
+			"tagName": "DIV",
+			"attributes": [],
+			"style": {
+				"parent": "lab_FORM_11741",
+				"style": {
+					"background-color": "white",
+					"width": "61%",
+					"height": "7%",
+					"display": "flex",
+					"justify-content": "center",
+					"align-items": "center",
+					"font-family": "Montserrat-Bold",
+					"color": "rgb(60, 45, 135)",
+					"border-top-left-radius": "20px",
+					"border-top-right-radius": "20px",
+					"border-bottom-right-radius": "20px",
+					"border-bottom-left-radius": "20px",
+					"cursor": "pointer"
+				},
+				"text": "Ajoutez la question",
+				"textArray": []
+			}
+		},
+		{
+			"id": "lab_DIV_25600",
+			"tagName": "DIV",
+			"attributes": [],
+			"style": {
+				"parent": "adminQuizz",
+				"style": {
+					"width": "75%",
+					"height": "100%",
+					"overflow-x": "hidden",
+					"overflow-y": "scroll"
+				},
+				"text": "",
+				"textArray": []
+			}
+		},
+		{
+			"id": "lab_TABLE_38252",
+			"tagName": "TABLE",
+			"attributes": [],
+			"style": {
+				"parent": "lab_DIV_25600",
+				"style": {
+					"width": "100%",
+					"max-height": "100%",
+					"overflow-y": "scroll"
+				},
+				"text": "",
+				"textArray": []
+			}
+		},
+		{
+			"id": "lab_THEAD_64346",
+			"tagName": "THEAD",
+			"attributes": [],
+			"style": {
+				"parent": "lab_TABLE_38252",
+				"style": {},
+				"text": "",
+				"textArray": []
+			}
+		},
+		{
+			"id": "lab_TR_29178",
+			"tagName": "TR",
+			"attributes": [],
+			"style": {
+				"parent": "lab_THEAD_64346",
+				"style": {},
+				"text": "",
+				"textArray": []
+			}
+		},
+		{
+			"id": "lab_TH_83814",
+			"tagName": "TH",
+			"attributes": [],
+			"style": {
+				"parent": "lab_TR_29178",
+				"style": {
+					"background-color": "white",
+					"color": "rgb(60, 45, 135)",
+					"width": "5%"
+				},
+				"text": "ID",
+				"textArray": []
+			}
+		},
+		{
+			"id": "lab_TH_36985",
+			"tagName": "TH",
+			"attributes": [],
+			"style": {
+				"parent": "lab_TR_29178",
+				"style": {
+					"background-color": "white",
+					"color": "rgb(60, 45, 135)",
+					"width": "14%"
+				},
+				"text": "Question",
+				"textArray": []
+			}
+		},
+		{
+			"id": "lab_TH_39800",
+			"tagName": "TH",
+			"attributes": [],
+			"style": {
+				"parent": "lab_TR_29178",
+				"style": {
+					"background-color": "white",
+					"color": "rgb(60, 45, 135)",
+					"width": "23%"
+				},
+				"text": "Réponse A",
+				"textArray": []
+			}
+		},
+		{
+			"id": "lab_TH_29838",
+			"tagName": "TH",
+			"attributes": [],
+			"style": {
+				"parent": "lab_TR_29178",
+				"style": {
+					"background-color": "white",
+					"color": "rgb(60, 45, 135)",
+					"width": "14%"
+				},
+				"text": "Réponse B",
+				"textArray": []
+			}
+		},
+		{
+			"id": "lab_TH_15983",
+			"tagName": "TH",
+			"attributes": [],
+			"style": {
+				"parent": "lab_TR_29178",
+				"style": {
+					"background-color": "white",
+					"color": "rgb(60, 45, 135)",
+					"width": "14%"
+				},
+				"text": "Réponse C",
+				"textArray": []
+			}
+		},
+		{
+			"id": "lab_TH_21033",
+			"tagName": "TH",
+			"attributes": [],
+			"style": {
+				"parent": "lab_TR_29178",
+				"style": {
+					"background-color": "white",
+					"color": "rgb(60, 45, 135)",
+					"width": "22%"
+				},
+				"text": "Réponse D",
+				"textArray": []
+			}
+		},
+		{
+			"id": "lab_TH_99612",
+			"tagName": "TH",
+			"attributes": [],
+			"style": {
+				"parent": "lab_TR_29178",
+				"style": {
+					"background-color": "white",
+					"color": "rgb(60, 45, 135)",
+					"width": "6%"
+				},
+				"text": "Réponse",
+				"textArray": []
+			}
+		},
+		{
+			"id": "lab_TH_39676",
+			"tagName": "TH",
+			"attributes": [],
+			"style": {
+				"parent": "lab_TR_29178",
+				"style": {
+					"background-color": "white",
+					"color": "rgb(60, 45, 135)",
+					"width": "6%"
+				},
+				"text": "Difficulté",
+				"textArray": []
+			}
+		},
+		{
+			"id": "lab_TBODY_65114",
+			"tagName": "TBODY",
+			"attributes": [],
+			"style": {
+				"parent": "lab_TABLE_38252",
+				"style": {
+					"font-family": "\"Montserrat-Regular-(1)\""
+				},
+				"text": "",
+				"textArray": []
+			}
+		},
+		{
+			"id": "popUpGestionUser",
+			"tagName": "DIV",
+			"attributes": [],
+			"style": {
+				"parent": "popUpGestionUser_container",
+				"style": {
+					"position": "absolute",
+					"top": "35svh",
+					"left": "35svw",
+					"width": "30svw",
+					"height": "30svh",
+					"background-color": "white",
+					"border-top-left-radius": "20px",
+					"border-top-right-radius": "20px",
+					"display": "flex",
+					"flex-direction": "column",
+					"align-items": "center"
+				},
+				"text": "",
+				"textArray": []
+			}
+		},
+		{
+			"id": "lab_P_56542",
+			"tagName": "P",
+			"attributes": [],
+			"style": {
+				"parent": "popUpGestionUser",
+				"style": {
+					"display": "flex",
+					"justify-content": "center",
+					"align-items": "center",
+					"width": "100%",
+					"height": "60%",
+					"font-family": "\"Montserrat-Regular-(1)\""
+				},
+				"text": "",
+				"textArray": [
+					{
+						"node": "text",
+						"pos": 0,
+						"textContent": "Vous avez sélecionné l'utilisateur "
+					},
+					{
+						"node": "SPAN",
+						"pos": 1,
+						"textContent": "user",
+						"style": "margin-left: 1%; color: rgb(60, 76, 166); font-family: Montserrat-Bold;"
+					}
+				]
+			}
+		},
+		{
+			"id": "idUser",
+			"tagName": "INPUT",
+			"attributes": [
+				{
+					"attributeName": "type",
+					"attributeValue": "hidden"
+				}
+			],
+			"style": {
+				"parent": "popUpGestionUser",
+				"style": {},
+				"text": "",
+				"textArray": []
+			}
+		},
+		{
+			"id": "passwordUser",
+			"tagName": "INPUT",
+			"attributes": [
+				{
+					"attributeName": "type",
+					"attributeValue": "hidden"
+				}
+			],
+			"style": {
+				"parent": "popUpGestionUser",
+				"style": {},
+				"text": "",
+				"textArray": []
+			}
+		},
+		{
+			"id": "lab_DIV_38735",
+			"tagName": "DIV",
+			"attributes": [],
+			"style": {
+				"parent": "popUpGestionUser",
+				"style": {
+					"width": "100%",
+					"height": "40%",
+					"display": "flex",
+					"align-items": "center",
+					"justify-content": "space-around"
+				},
+				"text": "",
+				"textArray": []
+			}
+		},
+		{
+			"id": "btn_update_user",
+			"tagName": "DIV",
+			"attributes": [],
+			"style": {
+				"parent": "lab_DIV_38735",
+				"style": {
+					"width": "28%",
+					"height": "80%",
+					"background-color": "rgb(60, 76, 166)",
+					"color": "white",
+					"font-family": "Montserrat-Bold",
+					"display": "flex",
+					"justify-content": "center",
+					"align-items": "center",
+					"border-top-left-radius": "20px",
+					"border-top-right-radius": "20px",
+					"border-bottom-right-radius": "20px",
+					"border-bottom-left-radius": "20px",
+					"cursor": "pointer"
+				},
+				"text": "Mettre à jour",
+				"textArray": []
+			}
+		},
+		{
+			"id": "btn_supp_user",
+			"tagName": "DIV",
+			"attributes": [],
+			"style": {
+				"parent": "lab_DIV_38735",
+				"style": {
+					"width": "28%",
+					"height": "80%",
+					"background-color": "rgb(60, 76, 166)",
+					"color": "white",
+					"font-family": "Montserrat-Bold",
+					"display": "flex",
+					"justify-content": "center",
+					"align-items": "center",
+					"border-top-left-radius": "20px",
+					"border-top-right-radius": "20px",
+					"border-bottom-right-radius": "20px",
+					"border-bottom-left-radius": "20px",
+					"cursor": "pointer"
+				},
+				"text": "Supprimer",
+				"textArray": []
+			}
+		},
+		{
+			"id": "btn_cancel_user",
+			"tagName": "DIV",
+			"attributes": [],
+			"style": {
+				"parent": "lab_DIV_38735",
+				"style": {
+					"width": "28%",
+					"height": "80%",
+					"background-color": "rgb(60, 76, 166)",
+					"color": "white",
+					"font-family": "Montserrat-Bold",
+					"display": "flex",
+					"justify-content": "center",
+					"align-items": "center",
+					"border-top-left-radius": "20px",
+					"border-top-right-radius": "20px",
+					"border-bottom-right-radius": "20px",
+					"border-bottom-left-radius": "20px",
+					"cursor": "pointer"
+				},
+				"text": "Annuler",
+				"textArray": []
+			}
+		},
+		{
+			"id": "popUpGestionQuizz",
+			"tagName": "DIV",
+			"attributes": [],
+			"style": {
+				"parent": "popUpGestionQuizz_container",
+				"style": {
+					"position": "absolute",
+					"top": "35svh",
+					"left": "35svw",
+					"width": "30svw",
+					"height": "30svh",
+					"background-color": "white",
+					"border-top-left-radius": "20px",
+					"border-top-right-radius": "20px",
+					"display": "flex",
+					"flex-direction": "column",
+					"align-items": "center"
+				},
+				"text": "",
+				"textArray": []
+			}
+		},
+		{
+			"id": "lab_P_33606",
+			"tagName": "P",
+			"attributes": [],
+			"style": {
+				"parent": "popUpGestionQuizz",
+				"style": {
+					"display": "flex",
+					"justify-content": "center",
+					"align-items": "center",
+					"width": "100%",
+					"height": "60%",
+					"font-family": "\"Montserrat-Regular-(1)\""
+				},
+				"text": "",
+				"textArray": [
+					{
+						"node": "text",
+						"pos": 0,
+						"textContent": "Vous avez sélecionné l'utilisateur "
+					},
+					{
+						"node": "SPAN",
+						"pos": 1,
+						"textContent": "user",
+						"style": "margin-left: 1%; color: rgb(60, 76, 166); font-family: Montserrat-Bold;"
+					}
+				]
+			}
+		},
+		{
+			"id": "QuestionQuizz",
+			"tagName": "INPUT",
+			"attributes": [
+				{
+					"attributeName": "type",
+					"attributeValue": "hidden"
+				}
+			],
+			"style": {
+				"parent": "popUpGestionQuizz",
+				"style": {},
+				"text": "",
+				"textArray": []
+			}
+		},
+		{
+			"id": "lab_DIV_75453",
+			"tagName": "DIV",
+			"attributes": [],
+			"style": {
+				"parent": "popUpGestionQuizz",
+				"style": {
+					"width": "100%",
+					"height": "40%",
+					"display": "flex",
+					"align-items": "center",
+					"justify-content": "space-around"
+				},
+				"text": "",
+				"textArray": []
+			}
+		},
+		{
+			"id": "btn_update_quizz",
+			"tagName": "DIV",
+			"attributes": [],
+			"style": {
+				"parent": "lab_DIV_75453",
+				"style": {
+					"width": "28%",
+					"height": "80%",
+					"background-color": "rgb(60, 76, 166)",
+					"color": "white",
+					"font-family": "Montserrat-Bold",
+					"display": "flex",
+					"justify-content": "center",
+					"align-items": "center",
+					"border-top-left-radius": "20px",
+					"border-top-right-radius": "20px",
+					"border-bottom-right-radius": "20px",
+					"border-bottom-left-radius": "20px",
+					"cursor": "pointer"
+				},
+				"text": "Mettre à jour",
+				"textArray": []
+			}
+		},
+		{
+			"id": "btn_supp_quizz",
+			"tagName": "DIV",
+			"attributes": [],
+			"style": {
+				"parent": "lab_DIV_75453",
+				"style": {
+					"width": "28%",
+					"height": "80%",
+					"background-color": "rgb(60, 76, 166)",
+					"color": "white",
+					"font-family": "Montserrat-Bold",
+					"display": "flex",
+					"justify-content": "center",
+					"align-items": "center",
+					"border-top-left-radius": "20px",
+					"border-top-right-radius": "20px",
+					"border-bottom-right-radius": "20px",
+					"border-bottom-left-radius": "20px",
+					"cursor": "pointer"
+				},
+				"text": "Supprimer",
+				"textArray": []
+			}
+		},
+		{
+			"id": "btn_cancel_quizz",
+			"tagName": "DIV",
+			"attributes": [],
+			"style": {
+				"parent": "lab_DIV_75453",
+				"style": {
+					"width": "28%",
+					"height": "80%",
+					"background-color": "rgb(60, 76, 166)",
+					"color": "white",
+					"font-family": "Montserrat-Bold",
+					"display": "flex",
+					"justify-content": "center",
+					"align-items": "center",
+					"border-top-left-radius": "20px",
+					"border-top-right-radius": "20px",
+					"border-bottom-right-radius": "20px",
+					"border-bottom-left-radius": "20px",
+					"cursor": "pointer"
+				},
+				"text": "Annuler",
+				"textArray": []
+			}
+		}
+	]
+}

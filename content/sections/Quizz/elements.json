@@ -1,0 +1,1659 @@
+{
+	"portrait": [
+		{
+			"id": "background",
+			"tagName": "DIV",
+			"classes": "background",
+			"style": {
+				"style": {
+					"position": "absolute",
+					"width": "100svw",
+					"height": "100svh",
+					"background-color": "#91b2f2"
+				},
+				"text": ""
+			}
+		}
+	],
+	"paysage": [
+		{
+			"id": "decorQuizzContainer",
+			"tagName": "DIV",
+			"attributes": [],
+			"style": {
+				"style": {
+					"position": "absolute",
+					"top": "0svh",
+					"left": "0svw",
+					"width": "100svw",
+					"z-index": "0",
+					"opacity": "0.75"
+				},
+				"text": "",
+				"textArray": []
+			}
+		},
+		{
+			"id": "lab_MAIN_65918",
+			"tagName": "MAIN",
+			"attributes": [],
+			"style": {
+				"style": {
+					"position": "relative",
+					"width": "100svw",
+					"height": "100svh",
+					"display": "flex",
+					"align-items": "center",
+					"justify-content": "center",
+					"z-index": "1"
+				},
+				"text": "",
+				"textArray": []
+			}
+		},
+		{
+			"id": "decorQuizz",
+			"tagName": "IMG",
+			"attributes": [
+				{
+					"attributeName": "src",
+					"attributeValue": "/content/sections/Quizz/img/decorQuizz.webp"
+				}
+			],
+			"style": {
+				"parent": "decorQuizzContainer",
+				"style": {
+					"width": "100%",
+					"height": "100%"
+				},
+				"text": "",
+				"textArray": []
+			}
+		},
+		{
+			"id": "menuQuizz",
+			"tagName": "SECTION",
+			"attributes": [],
+			"style": {
+				"parent": "lab_MAIN_65918",
+				"style": {
+					"width": "50%",
+					"height": "100%",
+					"display": "flex",
+					"flex-direction": "column",
+					"align-items": "center",
+					"justify-content": "flex-start",
+					"font-family": "\"Montserrat-Regular-(1)\""
+				},
+				"text": "",
+				"textArray": []
+			}
+		},
+		{
+			"id": "lab_H2_86098",
+			"tagName": "H2",
+			"attributes": [],
+			"style": {
+				"parent": "menuQuizz",
+				"style": {
+					"color": "rgb(60, 45, 135)",
+					"font-family": "Montserrat-Bold",
+					"font-size": "4svh",
+					"width": "100%",
+					"height": "20%",
+					"display": "flex",
+					"align-items": "center",
+					"justify-content": "center",
+					"background-color": "rgba(255, 255, 255, 0.56)",
+					"margin-top": "0px",
+					"margin-right": "0px",
+					"margin-bottom": "0px",
+					"margin-left": "0px",
+					"padding-top": "0px",
+					"padding-right": "0px",
+					"padding-bottom": "0px",
+					"padding-left": "0px"
+				},
+				"text": "Quizz",
+				"textArray": []
+			}
+		},
+		{
+			"id": "lab_DIV_5408",
+			"tagName": "DIV",
+			"attributes": [],
+			"style": {
+				"parent": "menuQuizz",
+				"style": {
+					"width": "100%",
+					"height": "50%",
+					"display": "flex",
+					"flex-direction": "column",
+					"justify-content": "space-around",
+					"align-items": "center",
+					"margin-top": "8%"
+				},
+				"text": "",
+				"textArray": []
+			}
+		},
+		{
+			"id": "btn_aloneGame",
+			"tagName": "DIV",
+			"attributes": [],
+			"style": {
+				"parent": "lab_DIV_5408",
+				"style": {
+					"background-color": "rgb(60, 45, 135)",
+					"color": "white",
+					"width": "25%",
+					"height": "15%",
+					"display": "flex",
+					"justify-content": "center",
+					"align-items": "center",
+					"border-top-left-radius": "20px",
+					"border-top-right-radius": "20px",
+					"border-bottom-right-radius": "20px",
+					"border-bottom-left-radius": "20px",
+					"cursor": "pointer",
+					"margin-right": "0px",
+					"font-size": "1.8svh",
+					"transition-behavior": "normal",
+					"transition-duration": "1s",
+					"transition-timing-function": "cubic-bezier(0, 0, 0.02, 1.02)",
+					"transition-delay": "0s",
+					"transition-property": "all"
+				},
+				"text": "Partie Solo",
+				"textArray": []
+			}
+		},
+		{
+			"id": "btn_multiplayerGame",
+			"tagName": "DIV",
+			"attributes": [],
+			"style": {
+				"parent": "lab_DIV_5408",
+				"style": {
+					"background-color": "rgb(60, 45, 135)",
+					"color": "white",
+					"width": "25%",
+					"height": "15%",
+					"display": "flex",
+					"justify-content": "center",
+					"align-items": "center",
+					"border-top-left-radius": "20px",
+					"border-top-right-radius": "20px",
+					"border-bottom-right-radius": "20px",
+					"border-bottom-left-radius": "20px",
+					"cursor": "pointer",
+					"margin-right": "0px",
+					"font-size": "1.8svh",
+					"transition-behavior": "normal",
+					"transition-duration": "1s",
+					"transition-timing-function": "cubic-bezier(0, 0, 0.02, 1.02)",
+					"transition-delay": "0s",
+					"transition-property": "all"
+				},
+				"text": "Multijoueur",
+				"textArray": []
+			}
+		},
+		{
+			"id": "btn_propalQuestion",
+			"tagName": "DIV",
+			"attributes": [],
+			"style": {
+				"parent": "lab_DIV_5408",
+				"style": {
+					"background-color": "rgb(60, 45, 135)",
+					"color": "white",
+					"width": "25%",
+					"height": "15%",
+					"display": "flex",
+					"justify-content": "center",
+					"align-items": "center",
+					"border-top-left-radius": "20px",
+					"border-top-right-radius": "20px",
+					"border-bottom-right-radius": "20px",
+					"border-bottom-left-radius": "20px",
+					"cursor": "pointer",
+					"margin-right": "0px",
+					"font-size": "1.8svh",
+					"transition-behavior": "normal",
+					"transition-duration": "1s",
+					"transition-timing-function": "cubic-bezier(0, 0, 0.02, 1.02)",
+					"transition-delay": "0s",
+					"transition-property": "all"
+				},
+				"text": "Proposez vos questions",
+				"textArray": []
+			}
+		},
+		{
+			"id": "btn_returnHome",
+			"tagName": "DIV",
+			"attributes": [],
+			"style": {
+				"parent": "lab_DIV_5408",
+				"style": {
+					"background-color": "rgb(60, 45, 135)",
+					"color": "white",
+					"width": "25%",
+					"height": "15%",
+					"display": "flex",
+					"justify-content": "center",
+					"align-items": "center",
+					"border-top-left-radius": "20px",
+					"border-top-right-radius": "20px",
+					"border-bottom-right-radius": "20px",
+					"border-bottom-left-radius": "20px",
+					"cursor": "pointer",
+					"margin-right": "0px",
+					"font-size": "1.8svh",
+					"transition-behavior": "normal",
+					"transition-duration": "1s",
+					"transition-timing-function": "cubic-bezier(0, 0, 0.02, 1.02)",
+					"transition-delay": "0s",
+					"transition-property": "all"
+				},
+				"text": "Revenir à l'accueil",
+				"textArray": []
+			}
+		},
+		{
+			"id": "scoresQuizz",
+			"tagName": "SECTION",
+			"attributes": [],
+			"classes": "menuRightContainer",
+			"style": {
+				"parent": "lab_MAIN_65918",
+				"style": {
+					"width": "50%",
+					"height": "100%",
+					"display": "none",
+					"flex-direction": "column",
+					"align-items": "center",
+					"justify-content": "space-around"
+				},
+				"text": "",
+				"textArray": []
+			}
+		},
+		{
+			"id": "scoreDay",
+			"tagName": "DIV",
+			"attributes": [],
+			"style": {
+				"parent": "scoresQuizz",
+				"style": {
+					"width": "14svw",
+					"height": "19svh",
+					"border-top-width": "6px",
+					"border-right-width": "6px",
+					"border-bottom-width": "6px",
+					"border-left-width": "6px",
+					"border-top-style": "solid",
+					"border-right-style": "solid",
+					"border-bottom-style": "solid",
+					"border-left-style": "solid",
+					"border-top-color": "rgb(60, 45, 135)",
+					"border-right-color": "rgb(60, 45, 135)",
+					"border-bottom-color": "rgb(60, 45, 135)",
+					"border-left-color": "rgb(60, 45, 135)",
+					"border-image-source": "initial",
+					"border-image-slice": "initial",
+					"border-image-width": "initial",
+					"border-image-outset": "initial",
+					"border-image-repeat": "initial",
+					"border-top-left-radius": "20px",
+					"border-top-right-radius": "20px",
+					"border-bottom-right-radius": "20px",
+					"border-bottom-left-radius": "20px",
+					"background-color": "rgb(235, 221, 221)",
+					"margin-left": "130%",
+					"transition-behavior": "normal",
+					"transition-duration": "1s",
+					"transition-timing-function": "cubic-bezier(0, 0, 0.02, 1.02)",
+					"transition-delay": "0s",
+					"transition-property": "all"
+				},
+				"text": "",
+				"textArray": []
+			}
+		},
+		{
+			"id": "lab_P_30578",
+			"tagName": "P",
+			"attributes": [],
+			"style": {
+				"parent": "scoreDay",
+				"style": {
+					"width": "100%",
+					"height": "30%",
+					"background-color": "rgb(60, 45, 135)",
+					"margin-top": "0px",
+					"margin-right": "0px",
+					"margin-bottom": "0px",
+					"margin-left": "0px",
+					"display": "flex",
+					"align-items": "center",
+					"justify-content": "center",
+					"font-family": "\"Montserrat-Regular-(1)\"",
+					"color": "white",
+					"font-size": "1.8svh"
+				},
+				"text": "Score du jour",
+				"textArray": []
+			}
+		},
+		{
+			"id": "lab_P_93659",
+			"tagName": "P",
+			"attributes": [],
+			"style": {
+				"parent": "scoreDay",
+				"style": {
+					"width": "100%",
+					"height": "70%",
+					"margin-top": "0px",
+					"margin-right": "0px",
+					"margin-bottom": "0px",
+					"margin-left": "0px",
+					"display": "flex",
+					"align-items": "center",
+					"justify-content": "center",
+					"font-family": "\"Montserrat-Regular-(1)\""
+				},
+				"text": "",
+				"textArray": []
+			}
+		},
+		{
+			"id": "scoreMonth",
+			"tagName": "DIV",
+			"attributes": [],
+			"style": {
+				"parent": "scoresQuizz",
+				"style": {
+					"width": "14svw",
+					"height": "19svh",
+					"border-top-width": "6px",
+					"border-right-width": "6px",
+					"border-bottom-width": "6px",
+					"border-left-width": "6px",
+					"border-top-style": "solid",
+					"border-right-style": "solid",
+					"border-bottom-style": "solid",
+					"border-left-style": "solid",
+					"border-top-color": "rgb(60, 45, 135)",
+					"border-right-color": "rgb(60, 45, 135)",
+					"border-bottom-color": "rgb(60, 45, 135)",
+					"border-left-color": "rgb(60, 45, 135)",
+					"border-image-source": "initial",
+					"border-image-slice": "initial",
+					"border-image-width": "initial",
+					"border-image-outset": "initial",
+					"border-image-repeat": "initial",
+					"border-top-left-radius": "20px",
+					"border-top-right-radius": "20px",
+					"border-bottom-right-radius": "20px",
+					"border-bottom-left-radius": "20px",
+					"background-color": "rgb(235, 221, 221)",
+					"margin-left": "130%",
+					"transition-behavior": "normal",
+					"transition-duration": "1s",
+					"transition-timing-function": "cubic-bezier(0, 0, 0.02, 1.02)",
+					"transition-delay": "0s",
+					"transition-property": "all"
+				},
+				"text": "",
+				"textArray": []
+			}
+		},
+		{
+			"id": "lab_P_88945",
+			"tagName": "P",
+			"attributes": [],
+			"style": {
+				"parent": "scoreMonth",
+				"style": {
+					"width": "100%",
+					"height": "30%",
+					"background-color": "rgb(60, 45, 135)",
+					"margin-top": "0px",
+					"margin-right": "0px",
+					"margin-bottom": "0px",
+					"margin-left": "0px",
+					"display": "flex",
+					"align-items": "center",
+					"justify-content": "center",
+					"font-family": "\"Montserrat-Regular-(1)\"",
+					"color": "white",
+					"font-size": "1.8svh"
+				},
+				"text": "Score mensuel",
+				"textArray": []
+			}
+		},
+		{
+			"id": "lab_P_64373",
+			"tagName": "P",
+			"attributes": [],
+			"style": {
+				"parent": "scoreMonth",
+				"style": {
+					"width": "100%",
+					"height": "70%",
+					"margin-top": "0px",
+					"margin-right": "0px",
+					"margin-bottom": "0px",
+					"margin-left": "0px",
+					"display": "flex",
+					"align-items": "center",
+					"justify-content": "center",
+					"font-family": "\"Montserrat-Regular-(1)\""
+				},
+				"text": "",
+				"textArray": []
+			}
+		},
+		{
+			"id": "totalScore",
+			"tagName": "DIV",
+			"attributes": [],
+			"style": {
+				"parent": "scoresQuizz",
+				"style": {
+					"width": "14svw",
+					"height": "19svh",
+					"border-top-width": "6px",
+					"border-right-width": "6px",
+					"border-bottom-width": "6px",
+					"border-left-width": "6px",
+					"border-top-style": "solid",
+					"border-right-style": "solid",
+					"border-bottom-style": "solid",
+					"border-left-style": "solid",
+					"border-top-color": "rgb(60, 45, 135)",
+					"border-right-color": "rgb(60, 45, 135)",
+					"border-bottom-color": "rgb(60, 45, 135)",
+					"border-left-color": "rgb(60, 45, 135)",
+					"border-image-source": "initial",
+					"border-image-slice": "initial",
+					"border-image-width": "initial",
+					"border-image-outset": "initial",
+					"border-image-repeat": "initial",
+					"border-top-left-radius": "20px",
+					"border-top-right-radius": "20px",
+					"border-bottom-right-radius": "20px",
+					"border-bottom-left-radius": "20px",
+					"background-color": "rgb(235, 221, 221)",
+					"margin-left": "130%",
+					"transition-behavior": "normal",
+					"transition-duration": "1s",
+					"transition-timing-function": "cubic-bezier(0, 0, 0.02, 1.02)",
+					"transition-delay": "0s",
+					"transition-property": "all"
+				},
+				"text": "",
+				"textArray": []
+			}
+		},
+		{
+			"id": "lab_P_92720",
+			"tagName": "P",
+			"attributes": [],
+			"style": {
+				"parent": "totalScore",
+				"style": {
+					"width": "100%",
+					"height": "30%",
+					"background-color": "rgb(60, 45, 135)",
+					"margin-top": "0px",
+					"margin-right": "0px",
+					"margin-bottom": "0px",
+					"margin-left": "0px",
+					"display": "flex",
+					"align-items": "center",
+					"justify-content": "center",
+					"font-family": "\"Montserrat-Regular-(1)\"",
+					"color": "white",
+					"font-size": "1.8svh"
+				},
+				"text": "Score total",
+				"textArray": []
+			}
+		},
+		{
+			"id": "lab_P_76110",
+			"tagName": "P",
+			"attributes": [],
+			"style": {
+				"parent": "totalScore",
+				"style": {
+					"width": "100%",
+					"height": "70%",
+					"margin-top": "0px",
+					"margin-right": "0px",
+					"margin-bottom": "0px",
+					"margin-left": "0px",
+					"display": "flex",
+					"align-items": "center",
+					"justify-content": "center",
+					"font-family": "\"Montserrat-Regular-(1)\""
+				},
+				"text": "",
+				"textArray": []
+			}
+		},
+		{
+			"id": "formPropalQuizz",
+			"tagName": "SECTION",
+			"attributes": [],
+			"classes": "menuRightContainer",
+			"style": {
+				"parent": "lab_MAIN_65918",
+				"style": {
+					"width": "50%",
+					"height": "100%",
+					"display": "none",
+					"flex-direction": "column",
+					"align-items": "center",
+					"justify-content": "space-around"
+				},
+				"text": "",
+				"textArray": []
+			}
+		},
+		{
+			"id": "lab_H2_80945",
+			"tagName": "H2",
+			"attributes": [],
+			"style": {
+				"parent": "formPropalQuizz",
+				"style": {
+					"color": "rgb(60, 45, 135)",
+					"font-family": "Montserrat-Bold",
+					"font-size": "4svh",
+					"width": "100%",
+					"height": "20%",
+					"display": "flex",
+					"align-items": "center",
+					"justify-content": "center",
+					"background-color": "rgba(255, 255, 255, 0.56)",
+					"margin-top": "0px",
+					"margin-right": "0px",
+					"margin-bottom": "0px",
+					"margin-left": "0px",
+					"padding-top": "0px",
+					"padding-right": "0px",
+					"padding-bottom": "0px",
+					"padding-left": "0px",
+					"opacity": "0",
+					"transition-behavior": "normal",
+					"transition-duration": "0.5s",
+					"transition-timing-function": "ease",
+					"transition-delay": "0s",
+					"transition-property": "all"
+				},
+				"text": "Proposez vos questions",
+				"textArray": []
+			}
+		},
+		{
+			"id": "lab_FORM_35942",
+			"tagName": "FORM",
+			"attributes": [],
+			"style": {
+				"parent": "formPropalQuizz",
+				"style": {
+					"display": "flex",
+					"flex-direction": "column",
+					"align-items": "center",
+					"justify-content": "space-around",
+					"width": "100%",
+					"height": "80%"
+				},
+				"text": "",
+				"textArray": []
+			}
+		},
+		{
+			"id": "inptQuestion_container",
+			"tagName": "DIV",
+			"attributes": [],
+			"style": {
+				"parent": "lab_FORM_35942",
+				"style": {
+					"display": "flex",
+					"justify-content": "center",
+					"align-items": "center",
+					"width": "90%",
+					"height": "7%",
+					"flex-direction": "column",
+					"transition-behavior": "normal",
+					"transition-duration": "1s",
+					"transition-timing-function": "cubic-bezier(0, 0, 0.02, 1.02)",
+					"transition-delay": "0s",
+					"transition-property": "all",
+					"margin-left": "170%"
+				},
+				"text": "",
+				"textArray": []
+			}
+		},
+		{
+			"id": "lab_LABEL_58973",
+			"tagName": "LABEL",
+			"attributes": [
+				{
+					"attributeName": "for",
+					"attributeValue": "propalQuestion"
+				}
+			],
+			"style": {
+				"parent": "inptQuestion_container",
+				"style": {
+					"display": "none"
+				},
+				"text": "Question",
+				"textArray": []
+			}
+		},
+		{
+			"id": "propalQuestion",
+			"tagName": "INPUT",
+			"attributes": [
+				{
+					"attributeName": "type",
+					"attributeValue": "text"
+				},
+				{
+					"attributeName": "name",
+					"attributeValue": "propalQuestion"
+				},
+				{
+					"attributeName": "placeholder",
+					"attributeValue": "Quel est la question?"
+				}
+			],
+			"style": {
+				"parent": "inptQuestion_container",
+				"style": {
+					"width": "70%",
+					"height": "77%",
+					"text-indent": "2svw",
+					"border-top-width": "3px",
+					"border-right-width": "3px",
+					"border-bottom-width": "3px",
+					"border-left-width": "3px",
+					"border-top-style": "solid",
+					"border-right-style": "solid",
+					"border-bottom-style": "solid",
+					"border-left-style": "solid",
+					"border-top-color": "rgb(60, 45, 135)",
+					"border-right-color": "rgb(60, 45, 135)",
+					"border-bottom-color": "rgb(60, 45, 135)",
+					"border-left-color": "rgb(60, 45, 135)",
+					"border-image-source": "initial",
+					"border-image-slice": "initial",
+					"border-image-width": "initial",
+					"border-image-outset": "initial",
+					"border-image-repeat": "initial"
+				},
+				"text": "",
+				"textArray": []
+			}
+		},
+		{
+			"id": "lab_P_14011",
+			"tagName": "P",
+			"attributes": [],
+			"style": {
+				"parent": "inptQuestion_container",
+				"style": {
+					"margin-top": "0px",
+					"margin-right": "0px",
+					"margin-bottom": "0px",
+					"margin-left": "0px",
+					"color": "red",
+					"background-color": "rgba(255, 255, 255, 0.46)",
+					"width": "70%",
+					"display": "none",
+					"justify-content": "center"
+				},
+				"text": "votre question ne correspond pas aux critères mis en place",
+				"textArray": []
+			}
+		},
+		{
+			"id": "inptReponseA_container",
+			"tagName": "DIV",
+			"attributes": [],
+			"style": {
+				"parent": "lab_FORM_35942",
+				"style": {
+					"display": "flex",
+					"justify-content": "center",
+					"align-items": "center",
+					"width": "90%",
+					"height": "7%",
+					"flex-direction": "column",
+					"transition-behavior": "normal",
+					"transition-duration": "1s",
+					"transition-timing-function": "cubic-bezier(0, 0, 0.02, 1.02)",
+					"transition-delay": "0s",
+					"transition-property": "all",
+					"margin-left": "170%"
+				},
+				"text": "",
+				"textArray": []
+			}
+		},
+		{
+			"id": "lab_LABEL_98937",
+			"tagName": "LABEL",
+			"attributes": [
+				{
+					"attributeName": "for",
+					"attributeValue": "propalReponseA"
+				}
+			],
+			"style": {
+				"parent": "inptReponseA_container",
+				"style": {
+					"display": "none"
+				},
+				"text": "Réponse A",
+				"textArray": []
+			}
+		},
+		{
+			"id": "propalReponseA",
+			"tagName": "INPUT",
+			"attributes": [
+				{
+					"attributeName": "type",
+					"attributeValue": "text"
+				},
+				{
+					"attributeName": "name",
+					"attributeValue": "propalReponseA"
+				},
+				{
+					"attributeName": "placeholder",
+					"attributeValue": "Quel est la réponse A"
+				}
+			],
+			"style": {
+				"parent": "inptReponseA_container",
+				"style": {
+					"width": "70%",
+					"height": "77%",
+					"text-indent": "2svw",
+					"border-top-width": "3px",
+					"border-right-width": "3px",
+					"border-bottom-width": "3px",
+					"border-left-width": "3px",
+					"border-top-style": "solid",
+					"border-right-style": "solid",
+					"border-bottom-style": "solid",
+					"border-left-style": "solid",
+					"border-top-color": "rgb(60, 45, 135)",
+					"border-right-color": "rgb(60, 45, 135)",
+					"border-bottom-color": "rgb(60, 45, 135)",
+					"border-left-color": "rgb(60, 45, 135)",
+					"border-image-source": "initial",
+					"border-image-slice": "initial",
+					"border-image-width": "initial",
+					"border-image-outset": "initial",
+					"border-image-repeat": "initial"
+				},
+				"text": "",
+				"textArray": []
+			}
+		},
+		{
+			"id": "inptReponseB_container",
+			"tagName": "DIV",
+			"attributes": [],
+			"style": {
+				"parent": "lab_FORM_35942",
+				"style": {
+					"display": "flex",
+					"justify-content": "center",
+					"align-items": "center",
+					"width": "90%",
+					"height": "7%",
+					"flex-direction": "column",
+					"transition-behavior": "normal",
+					"transition-duration": "1s",
+					"transition-timing-function": "cubic-bezier(0, 0, 0.02, 1.02)",
+					"transition-delay": "0s",
+					"transition-property": "all",
+					"margin-left": "170%"
+				},
+				"text": "",
+				"textArray": []
+			}
+		},
+		{
+			"id": "lab_LABEL_89753",
+			"tagName": "LABEL",
+			"attributes": [
+				{
+					"attributeName": "for",
+					"attributeValue": "propalReponseB"
+				}
+			],
+			"style": {
+				"parent": "inptReponseB_container",
+				"style": {
+					"display": "none"
+				},
+				"text": "Réponse B",
+				"textArray": []
+			}
+		},
+		{
+			"id": "propalReponseB",
+			"tagName": "INPUT",
+			"attributes": [
+				{
+					"attributeName": "type",
+					"attributeValue": "text"
+				},
+				{
+					"attributeName": "name",
+					"attributeValue": "propalReponseB"
+				},
+				{
+					"attributeName": "placeholder",
+					"attributeValue": "Quel est la réponse B"
+				}
+			],
+			"style": {
+				"parent": "inptReponseB_container",
+				"style": {
+					"width": "70%",
+					"height": "77%",
+					"text-indent": "2svw",
+					"border-top-width": "3px",
+					"border-right-width": "3px",
+					"border-bottom-width": "3px",
+					"border-left-width": "3px",
+					"border-top-style": "solid",
+					"border-right-style": "solid",
+					"border-bottom-style": "solid",
+					"border-left-style": "solid",
+					"border-top-color": "rgb(60, 45, 135)",
+					"border-right-color": "rgb(60, 45, 135)",
+					"border-bottom-color": "rgb(60, 45, 135)",
+					"border-left-color": "rgb(60, 45, 135)",
+					"border-image-source": "initial",
+					"border-image-slice": "initial",
+					"border-image-width": "initial",
+					"border-image-outset": "initial",
+					"border-image-repeat": "initial"
+				},
+				"text": "",
+				"textArray": []
+			}
+		},
+		{
+			"id": "inptReponseC_container",
+			"tagName": "DIV",
+			"attributes": [],
+			"style": {
+				"parent": "lab_FORM_35942",
+				"style": {
+					"display": "flex",
+					"justify-content": "center",
+					"align-items": "center",
+					"width": "90%",
+					"height": "7%",
+					"flex-direction": "column",
+					"transition-behavior": "normal",
+					"transition-duration": "1s",
+					"transition-timing-function": "cubic-bezier(0, 0, 0.02, 1.02)",
+					"transition-delay": "0s",
+					"transition-property": "all",
+					"margin-left": "170%"
+				},
+				"text": "",
+				"textArray": []
+			}
+		},
+		{
+			"id": "lab_LABEL_41280",
+			"tagName": "LABEL",
+			"attributes": [
+				{
+					"attributeName": "for",
+					"attributeValue": "propalReponseC"
+				}
+			],
+			"style": {
+				"parent": "inptReponseC_container",
+				"style": {
+					"display": "none"
+				},
+				"text": "Réponse C",
+				"textArray": []
+			}
+		},
+		{
+			"id": "propalReponseC",
+			"tagName": "INPUT",
+			"attributes": [
+				{
+					"attributeName": "type",
+					"attributeValue": "text"
+				},
+				{
+					"attributeName": "name",
+					"attributeValue": "propalReponseC"
+				},
+				{
+					"attributeName": "placeholder",
+					"attributeValue": "Quel est la réponse C"
+				}
+			],
+			"style": {
+				"parent": "inptReponseC_container",
+				"style": {
+					"width": "70%",
+					"height": "77%",
+					"text-indent": "2svw",
+					"border-top-width": "3px",
+					"border-right-width": "3px",
+					"border-bottom-width": "3px",
+					"border-left-width": "3px",
+					"border-top-style": "solid",
+					"border-right-style": "solid",
+					"border-bottom-style": "solid",
+					"border-left-style": "solid",
+					"border-top-color": "rgb(60, 45, 135)",
+					"border-right-color": "rgb(60, 45, 135)",
+					"border-bottom-color": "rgb(60, 45, 135)",
+					"border-left-color": "rgb(60, 45, 135)",
+					"border-image-source": "initial",
+					"border-image-slice": "initial",
+					"border-image-width": "initial",
+					"border-image-outset": "initial",
+					"border-image-repeat": "initial"
+				},
+				"text": "",
+				"textArray": []
+			}
+		},
+		{
+			"id": "inptReponseD_container",
+			"tagName": "DIV",
+			"attributes": [],
+			"style": {
+				"parent": "lab_FORM_35942",
+				"style": {
+					"display": "flex",
+					"justify-content": "center",
+					"align-items": "center",
+					"width": "90%",
+					"height": "7%",
+					"flex-direction": "column",
+					"transition-behavior": "normal",
+					"transition-duration": "1s",
+					"transition-timing-function": "cubic-bezier(0, 0, 0.02, 1.02)",
+					"transition-delay": "0s",
+					"transition-property": "all",
+					"margin-left": "170%"
+				},
+				"text": "",
+				"textArray": []
+			}
+		},
+		{
+			"id": "lab_LABEL_88779",
+			"tagName": "LABEL",
+			"attributes": [
+				{
+					"attributeName": "for",
+					"attributeValue": "propalReponseD"
+				}
+			],
+			"style": {
+				"parent": "inptReponseD_container",
+				"style": {
+					"display": "none"
+				},
+				"text": "Réponse D",
+				"textArray": []
+			}
+		},
+		{
+			"id": "propalReponseD",
+			"tagName": "INPUT",
+			"attributes": [
+				{
+					"attributeName": "type",
+					"attributeValue": "text"
+				},
+				{
+					"attributeName": "name",
+					"attributeValue": "propalReponseD"
+				},
+				{
+					"attributeName": "placeholder",
+					"attributeValue": "Quel est la réponse D"
+				}
+			],
+			"style": {
+				"parent": "inptReponseD_container",
+				"style": {
+					"width": "70%",
+					"height": "77%",
+					"text-indent": "2svw",
+					"border-top-width": "3px",
+					"border-right-width": "3px",
+					"border-bottom-width": "3px",
+					"border-left-width": "3px",
+					"border-top-style": "solid",
+					"border-right-style": "solid",
+					"border-bottom-style": "solid",
+					"border-left-style": "solid",
+					"border-top-color": "rgb(60, 45, 135)",
+					"border-right-color": "rgb(60, 45, 135)",
+					"border-bottom-color": "rgb(60, 45, 135)",
+					"border-left-color": "rgb(60, 45, 135)",
+					"border-image-source": "initial",
+					"border-image-slice": "initial",
+					"border-image-width": "initial",
+					"border-image-outset": "initial",
+					"border-image-repeat": "initial"
+				},
+				"text": "",
+				"textArray": []
+			}
+		},
+		{
+			"id": "inptReponse_container",
+			"tagName": "DIV",
+			"attributes": [],
+			"style": {
+				"parent": "lab_FORM_35942",
+				"style": {
+					"display": "flex",
+					"justify-content": "center",
+					"align-items": "center",
+					"width": "90%",
+					"height": "7%",
+					"flex-direction": "column",
+					"transition-behavior": "normal",
+					"transition-duration": "1s",
+					"transition-timing-function": "cubic-bezier(0, 0, 0.02, 1.02)",
+					"transition-delay": "0s",
+					"transition-property": "all",
+					"margin-left": "170%"
+				},
+				"text": "",
+				"textArray": []
+			}
+		},
+		{
+			"id": "lab_LABEL_86119",
+			"tagName": "LABEL",
+			"attributes": [
+				{
+					"attributeName": "for",
+					"attributeValue": "propalReponse"
+				}
+			],
+			"style": {
+				"parent": "inptReponse_container",
+				"style": {
+					"display": "none"
+				},
+				"text": "Réponse",
+				"textArray": []
+			}
+		},
+		{
+			"id": "propalReponse",
+			"tagName": "INPUT",
+			"attributes": [
+				{
+					"attributeName": "type",
+					"attributeValue": "text"
+				},
+				{
+					"attributeName": "name",
+					"attributeValue": "propalReponse"
+				},
+				{
+					"attributeName": "placeholder",
+					"attributeValue": "Quel est la réponse? écrivez A, B, C ou D"
+				}
+			],
+			"style": {
+				"parent": "inptReponse_container",
+				"style": {
+					"width": "70%",
+					"height": "77%",
+					"text-indent": "2svw",
+					"border-top-width": "3px",
+					"border-right-width": "3px",
+					"border-bottom-width": "3px",
+					"border-left-width": "3px",
+					"border-top-style": "solid",
+					"border-right-style": "solid",
+					"border-bottom-style": "solid",
+					"border-left-style": "solid",
+					"border-top-color": "rgb(60, 45, 135)",
+					"border-right-color": "rgb(60, 45, 135)",
+					"border-bottom-color": "rgb(60, 45, 135)",
+					"border-left-color": "rgb(60, 45, 135)",
+					"border-image-source": "initial",
+					"border-image-slice": "initial",
+					"border-image-width": "initial",
+					"border-image-outset": "initial",
+					"border-image-repeat": "initial"
+				},
+				"text": "",
+				"textArray": []
+			}
+		},
+		{
+			"id": "inptDifficulty_container",
+			"tagName": "DIV",
+			"attributes": [],
+			"style": {
+				"parent": "lab_FORM_35942",
+				"style": {
+					"display": "flex",
+					"justify-content": "center",
+					"align-items": "center",
+					"width": "90%",
+					"height": "7%",
+					"flex-direction": "column",
+					"transition-behavior": "normal",
+					"transition-duration": "1s",
+					"transition-timing-function": "cubic-bezier(0, 0, 0.02, 1.02)",
+					"transition-delay": "0s",
+					"transition-property": "all",
+					"margin-left": "170%"
+				},
+				"text": "",
+				"textArray": []
+			}
+		},
+		{
+			"id": "lab_LABEL_71439",
+			"tagName": "LABEL",
+			"attributes": [],
+			"style": {
+				"parent": "inptDifficulty_container",
+				"style": {
+					"display": "none"
+				},
+				"text": "Difficulté",
+				"textArray": []
+			}
+		},
+		{
+			"id": "difficulty",
+			"tagName": "INPUT",
+			"attributes": [
+				{
+					"attributeName": "type",
+					"attributeValue": "text"
+				},
+				{
+					"attributeName": "name",
+					"attributeValue": "difficulty"
+				},
+				{
+					"attributeName": "placeholder",
+					"attributeValue": "Quel est la difficulté ? 1 pour facile, 2 pour moyen, 3 pour difficile"
+				}
+			],
+			"style": {
+				"parent": "inptDifficulty_container",
+				"style": {
+					"width": "70%",
+					"height": "77%",
+					"text-indent": "2svw",
+					"border-top-width": "3px",
+					"border-right-width": "3px",
+					"border-bottom-width": "3px",
+					"border-left-width": "3px",
+					"border-top-style": "solid",
+					"border-right-style": "solid",
+					"border-bottom-style": "solid",
+					"border-left-style": "solid",
+					"border-top-color": "rgb(60, 45, 135)",
+					"border-right-color": "rgb(60, 45, 135)",
+					"border-bottom-color": "rgb(60, 45, 135)",
+					"border-left-color": "rgb(60, 45, 135)",
+					"border-image-source": "initial",
+					"border-image-slice": "initial",
+					"border-image-width": "initial",
+					"border-image-outset": "initial",
+					"border-image-repeat": "initial"
+				},
+				"text": "",
+				"textArray": []
+			}
+		},
+		{
+			"id": "btn_propalQuestionQuizz",
+			"tagName": "DIV",
+			"attributes": [],
+			"style": {
+				"parent": "lab_FORM_35942",
+				"style": {
+					"width": "30%",
+					"height": "7%",
+					"display": "flex",
+					"justify-content": "center",
+					"align-items": "center",
+					"color": "white",
+					"background-color": "rgb(60, 45, 135)",
+					"border-top-left-radius": "20px",
+					"border-top-right-radius": "20px",
+					"border-bottom-right-radius": "20px",
+					"border-bottom-left-radius": "20px",
+					"cursor": "pointer",
+					"transition-behavior": "normal",
+					"transition-duration": "1s",
+					"transition-timing-function": "cubic-bezier(0, 0, 0.02, 1.02)",
+					"transition-delay": "0s",
+					"transition-property": "all",
+					"margin-left": "170%",
+					"font-size": "1.8svh",
+					"font-family": "\"Montserrat-Regular-(1)\""
+				},
+				"text": "Envoyer",
+				"textArray": []
+			}
+		},
+		{
+			"id": "soloGame_container",
+			"tagName": "SECTION",
+			"attributes": [],
+			"style": {
+				"parent": "lab_MAIN_65918",
+				"style": {
+					"width": "50%",
+					"height": "100%",
+					"display": "flex",
+					"flex-direction": "column",
+					"align-items": "center",
+					"justify-content": "center"
+				},
+				"text": "",
+				"textArray": []
+			}
+		},
+		{
+			"id": "lab_DIV_71522",
+			"tagName": "DIV",
+			"attributes": [],
+			"style": {
+				"parent": "soloGame_container",
+				"style": {
+					"display": "flex",
+					"align-items": "center",
+					"justify-content": "space-evenly",
+					"flex-direction": "column",
+					"width": "20svw",
+					"height": "20svw",
+					"border-top-left-radius": "50%",
+					"border-top-right-radius": "50%",
+					"border-bottom-right-radius": "50%",
+					"border-bottom-left-radius": "50%",
+					"background-color": "rgb(60, 45, 135)",
+					"font-family": "\"Montserrat-Regular-(1)\"",
+					"transition-behavior": "normal",
+					"transition-duration": "1s",
+					"transition-timing-function": "ease",
+					"transition-delay": "0s",
+					"transition-property": "all",
+					"rotate": "0deg",
+					"margin-left": "0%"
+				},
+				"text": "",
+				"textArray": []
+			}
+		},
+		{
+			"id": "lab_LABEL_43647",
+			"tagName": "LABEL",
+			"attributes": [],
+			"style": {
+				"parent": "lab_DIV_71522",
+				"style": {
+					"color": "white",
+					"font-size": "1.8svh"
+				},
+				"text": "Choississez la taille de votre Quizz",
+				"textArray": []
+			}
+		},
+		{
+			"id": "selectParaSolo",
+			"tagName": "SELECT",
+			"attributes": [],
+			"style": {
+				"parent": "lab_DIV_71522",
+				"style": {
+					"width": "70%",
+					"height": "12%",
+					"text-align": "center"
+				},
+				"text": "",
+				"textArray": []
+			}
+		},
+		{
+			"id": "lab_OPTION_77600",
+			"tagName": "OPTION",
+			"attributes": [
+				{
+					"attributeName": "value",
+					"attributeValue": "10"
+				}
+			],
+			"style": {
+				"parent": "selectParaSolo",
+				"style": {},
+				"text": "10",
+				"textArray": []
+			}
+		},
+		{
+			"id": "lab_OPTION_28700",
+			"tagName": "OPTION",
+			"attributes": [
+				{
+					"attributeName": "value",
+					"attributeValue": "15"
+				}
+			],
+			"style": {
+				"parent": "selectParaSolo",
+				"style": {},
+				"text": "15",
+				"textArray": []
+			}
+		},
+		{
+			"id": "lab_OPTION_4359",
+			"tagName": "OPTION",
+			"attributes": [
+				{
+					"attributeName": "value",
+					"attributeValue": "20"
+				}
+			],
+			"style": {
+				"parent": "selectParaSolo",
+				"style": {},
+				"text": "20",
+				"textArray": []
+			}
+		},
+		{
+			"id": "lab_OPTION_9738",
+			"tagName": "OPTION",
+			"attributes": [
+				{
+					"attributeName": "value",
+					"attributeValue": "infinite"
+				}
+			],
+			"style": {
+				"parent": "selectParaSolo",
+				"style": {},
+				"text": "Infinie",
+				"textArray": []
+			}
+		},
+		{
+			"id": "btn_beginSoloGame",
+			"tagName": "DIV",
+			"attributes": [],
+			"style": {
+				"parent": "lab_DIV_71522",
+				"style": {
+					"width": "45%",
+					"height": "10%",
+					"display": "flex",
+					"justify-content": "center",
+					"align-items": "center",
+					"background-color": "white",
+					"color": "rgb(60, 45, 135)",
+					"font-family": "Montserrat-Bold",
+					"border-top-left-radius": "15px",
+					"border-top-right-radius": "15px",
+					"border-bottom-right-radius": "15px",
+					"border-bottom-left-radius": "15px",
+					"cursor": "pointer",
+					"font-size": "1.8svh"
+				},
+				"text": "Commencer",
+				"textArray": []
+			}
+		},
+		{
+			"id": "multiGame_container",
+			"tagName": "SECTION",
+			"attributes": [],
+			"style": {
+				"parent": "lab_MAIN_65918",
+				"style": {
+					"width": "50%",
+					"height": "100%",
+					"display": "none",
+					"flex-direction": "column",
+					"align-items": "center",
+					"justify-content": "center"
+				},
+				"text": "",
+				"textArray": []
+			}
+		},
+		{
+			"id": "lab_DIV_89191",
+			"tagName": "DIV",
+			"attributes": [],
+			"style": {
+				"parent": "multiGame_container",
+				"style": {
+					"display": "flex",
+					"align-items": "center",
+					"justify-content": "space-evenly",
+					"flex-direction": "column",
+					"width": "27svw",
+					"height": "27svw",
+					"border-top-left-radius": "50%",
+					"border-top-right-radius": "50%",
+					"border-bottom-right-radius": "50%",
+					"border-bottom-left-radius": "50%",
+					"background-color": "rgb(60, 45, 135)",
+					"font-family": "\"Montserrat-Regular-(1)\"",
+					"transition-behavior": "normal",
+					"transition-duration": "1s",
+					"transition-timing-function": "ease",
+					"transition-delay": "0s",
+					"transition-property": "all",
+					"rotate": "360deg",
+					"margin-left": "160%"
+				},
+				"text": "",
+				"textArray": []
+			}
+		},
+		{
+			"id": "lab_LABEL_681",
+			"tagName": "LABEL",
+			"attributes": [],
+			"style": {
+				"parent": "lab_DIV_89191",
+				"style": {
+					"color": "white",
+					"font-size": "1.8svh"
+				},
+				"text": "Choississez la taille de votre Quizz",
+				"textArray": []
+			}
+		},
+		{
+			"id": "selectParaMultiplayer",
+			"tagName": "SELECT",
+			"attributes": [],
+			"style": {
+				"parent": "lab_DIV_89191",
+				"style": {
+					"width": "70%",
+					"height": "12%",
+					"text-align": "center"
+				},
+				"text": "",
+				"textArray": []
+			}
+		},
+		{
+			"id": "lab_OPTION_25093",
+			"tagName": "OPTION",
+			"attributes": [
+				{
+					"attributeName": "value",
+					"attributeValue": "10"
+				}
+			],
+			"style": {
+				"parent": "selectParaMultiplayer",
+				"style": {},
+				"text": "10",
+				"textArray": []
+			}
+		},
+		{
+			"id": "lab_OPTION_1383",
+			"tagName": "OPTION",
+			"attributes": [
+				{
+					"attributeName": "value",
+					"attributeValue": "15"
+				}
+			],
+			"style": {
+				"parent": "selectParaMultiplayer",
+				"style": {},
+				"text": "15",
+				"textArray": []
+			}
+		},
+		{
+			"id": "lab_OPTION_31866",
+			"tagName": "OPTION",
+			"attributes": [
+				{
+					"attributeName": "value",
+					"attributeValue": "20"
+				}
+			],
+			"style": {
+				"parent": "selectParaMultiplayer",
+				"style": {},
+				"text": "20",
+				"textArray": []
+			}
+		},
+		{
+			"id": "lab_OPTION_5925",
+			"tagName": "OPTION",
+			"attributes": [
+				{
+					"attributeName": "value",
+					"attributeValue": "infinite"
+				}
+			],
+			"style": {
+				"parent": "selectParaMultiplayer",
+				"style": {},
+				"text": "Infinie",
+				"textArray": []
+			}
+		},
+		{
+			"id": "btn_generateLink",
+			"tagName": "DIV",
+			"attributes": [],
+			"style": {
+				"parent": "lab_DIV_89191",
+				"style": {
+					"width": "45%",
+					"height": "10%",
+					"display": "flex",
+					"justify-content": "center",
+					"align-items": "center",
+					"background-color": "white",
+					"color": "rgb(60, 45, 135)",
+					"font-family": "Montserrat-Bold",
+					"border-top-left-radius": "15px",
+					"border-top-right-radius": "15px",
+					"border-bottom-right-radius": "15px",
+					"border-bottom-left-radius": "15px",
+					"cursor": "pointer",
+					"font-size": "1.8svh"
+				},
+				"text": "générer le lien",
+				"textArray": []
+			}
+		},
+		{
+			"id": "lienGameMulti",
+			"tagName": "DIV",
+			"attributes": [],
+			"style": {
+				"parent": "lab_DIV_89191",
+				"style": {
+					"background-color": "white",
+					"color": "rgb(60, 45, 135)",
+					"width": "45%",
+					"height": "10%",
+					"text-align": "center"
+				},
+				"text": "",
+				"textArray": []
+			}
+		},
+		{
+			"id": "btn_beginMultiGame",
+			"tagName": "DIV",
+			"attributes": [],
+			"style": {
+				"parent": "lab_DIV_89191",
+				"style": {
+					"width": "45%",
+					"height": "10%",
+					"display": "flex",
+					"justify-content": "center",
+					"align-items": "center",
+					"background-color": "white",
+					"color": "rgb(60, 45, 135)",
+					"font-family": "Montserrat-Bold",
+					"border-top-left-radius": "15px",
+					"border-top-right-radius": "15px",
+					"border-bottom-right-radius": "15px",
+					"border-bottom-left-radius": "15px",
+					"cursor": "pointer",
+					"font-size": "1.8svh"
+				},
+				"text": "Commencer",
+				"textArray": []
+			}
+		}
+	]
+}

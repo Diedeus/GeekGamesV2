@@ -1,0 +1,128 @@
+[
+    {
+      "question": "Dans quel jeu vidéo Mario doit-il sauver la princesse Peach ?",
+      "reponseA": "Super Mario Bros",
+      "reponseB": "Sonic the Hedgehog",
+      "reponseC": "The Legend of Zelda",
+      "reponseD": "Pac-Man",
+      "reponse": "A",
+      "difficulte": "1"
+    },
+    {
+      "question": "Qui est le créateur de la série animée \"Rick et Morty\" ?",
+      "reponseA": "Seth MacFarlane",
+      "reponseB": "Matt Groening",
+      "reponseC": "Dan Harmon",
+      "reponseD": "Mike Judge",
+      "reponse": "C",
+      "difficulte": "2"
+    },
+    {
+      "question": "Quel est le nom de l'épée légendaire dans la série de jeux vidéo \"The Legend of Zelda\" ?",
+      "reponseA": "Aiguille",
+      "reponseB": "Master Sword",
+      "reponseC": "Frostmourne",
+      "reponseD": "Buster Sword",
+      "reponse": "B",
+      "difficulte": "1"
+    },
+    {
+      "question": "Dans quelle série télévisée peut-on suivre les aventures de Sheldon, Leonard et leurs amis ?",
+      "reponseA": "Friends",
+      "reponseB": "The Big Bang Theory",
+      "reponseC": "How I Met Your Mother",
+      "reponseD": "Brooklyn Nine-Nine",
+      "reponse": "B",
+      "difficulte": "1"
+    },
+    {
+      "question": "Quel est le nom du personnage principal dans la série de jeux vidéo \"The Witcher\" ? ",
+      "reponseA": "Geralt de Riv",
+      "reponseB": "Ezio Auditore",
+      "reponseC": "Kratos",
+      "reponseD": "Nathan Drake",
+      "reponse": "A",
+      "difficulte": "1"
+    },
+    {
+      "question": "Qui est l'auteur du livre \"Le Seigneur des Anneaux\" ?",
+      "reponseA": "J.K. Rowling",
+      "reponseB": "George R.R. Martin",
+      "reponseC": "J.R.R. Tolkien",
+      "reponseD": "C.S. Lewis",
+      "reponse": "C",
+      "difficulte": "1"
+    },
+    {
+      "question": "Quelle est la célèbre phrase de Darth Vader dans \"Star Wars\" ?",
+      "reponseA": "\"May the Force be with you\"",
+      "reponseB": "\"I am your father\"",
+      "reponseC": "\"I'll be back\"",
+      "reponseD": "\"Live long and prosper\"",
+      "reponse": "B",
+      "difficulte": "1"
+    },
+    {
+      "question": "Quel est le nom du robot dans la série \"Futurama\" ?",
+      "reponseA": "Bender",
+      "reponseB": "Wall-E",
+      "reponseC": "R2-D2",
+      "reponseD": "Marvin",
+      "reponse": "A",
+      "difficulte": "2"
+    },
+    {
+      "question": "Qui est le réalisateur du film \"Inception\" ?",
+      "reponseA": " Steven Spielberg",
+      "reponseB": "Christopher Nolan",
+      "reponseC": "James Cameron",
+      "reponseD": "Quentin Tarantino",
+      "reponse": "B",
+      "difficulte": "2"
+    },
+    {
+      "question": "Quel est le nom du personnage principal dans le jeu vidéo \"Assassin's Creed I\" ?",
+      "reponseA": "Altair Ibn-La'Ahad",
+      "reponseB": "Marcus Fenix",
+      "reponseC": "John Marston",
+      "reponseD": "Lara Croft",
+      "reponse": "A",
+      "difficulte": "2"
+    },
+    {
+      "question": "Quelle est la planète d'origine de Superman ?",
+      "reponseA": "Krypton",
+      "reponseB": "Tatooine",
+      "reponseC": "Pandora",
+      "reponseD": "Alderaan",
+      "reponse": "A",
+      "difficulte": "1"
+    },
+    {
+      "question": "Quel est le nom du vaisseau spatial dans la série \"Star Trek\" ?",
+      "reponseA": "Millennium Falcon",
+      "reponseB": "Serenity",
+      "reponseC": "Enterprise",
+      "reponseD": "TARDIS",
+      "reponse": "C",
+      "difficulte": "1"
+    },
+    {
+      "question": "Dans quelle série télévisée trouve-t-on le personnage de Eleven ?",
+      "reponseA": "Stranger Things",
+      "reponseB": "Breaking Bad",
+      "reponseC": "The Walking Dead",
+      "reponseD": "Game of Thrones",
+      "reponse": "A",
+      "difficulte": "2"
+    },
+    {
+      "question": "Dans quelle série télévisée trouve-t-on le personnage de Eleven ?",
+      "reponseA": "Stranger Things",
+      "reponseB": "Breaking Bad",
+      "reponseC": "The Walking Dead",
+      "reponseD": "Game of Thrones",
+      "reponse": "A",
+      "difficulte": "2"
+    }
+  ]

@@ -1,0 +1,2427 @@
+{
+	"portrait": [
+		{
+			"id": "background",
+			"tagName": "DIV",
+			"classes": "background",
+			"style": {
+				"style": {
+					"position": "absolute",
+					"width": "100svw",
+					"height": "100svh",
+					"background-color": "#91b2f2"
+				},
+				"text": ""
+			}
+		}
+	],
+	"paysage": [
+		{
+			"id": "bodyHome",
+			"tagName": "SECTION",
+			"attributes": [],
+			"style": {
+				"style": {
+					"width": "100svw",
+					"height": "100svh",
+					"background-image": "url(\"/content/ressources/medias/imgHome/background2.jpg\")",
+					"margin-top": "0px",
+					"margin-right": "0px",
+					"margin-bottom": "0px",
+					"margin-left": "0px",
+					"padding-top": "0px",
+					"padding-right": "0px",
+					"padding-bottom": "0px",
+					"padding-left": "0px",
+					"position": "absolute",
+					"top": "0px",
+					"left": "0px",
+					"display": "flex",
+					"flex-direction": "column",
+					"justify-content": "flex-start",
+					"align-items": "center"
+				},
+				"text": "",
+				"textArray": []
+			}
+		},
+		{
+			"id": "lab_FORM_34053",
+			"tagName": "FORM",
+			"attributes": [],
+			"style": {
+				"style": {
+					"display": "none",
+					"flex-direction": "column",
+					"align-items": "center",
+					"justify-content": "center",
+					"width": "30%"
+				},
+				"text": "",
+				"textArray": []
+			}
+		},
+		{
+			"id": "actuBdd",
+			"tagName": "DIV",
+			"attributes": [],
+			"style": {
+				"style": {
+					"border-top-width": "1px",
+					"border-right-width": "1px",
+					"border-bottom-width": "1px",
+					"border-left-width": "1px",
+					"border-top-style": "solid",
+					"border-right-style": "solid",
+					"border-bottom-style": "solid",
+					"border-left-style": "solid",
+					"border-top-color": "black",
+					"border-right-color": "black",
+					"border-bottom-color": "black",
+					"border-left-color": "black",
+					"border-image-source": "initial",
+					"border-image-slice": "initial",
+					"border-image-width": "initial",
+					"border-image-outset": "initial",
+					"border-image-repeat": "initial",
+					"width": "5svw",
+					"height": "3svh",
+					"display": "none",
+					"justify-content": "center",
+					"align-items": "center",
+					"cursor": "pointer"
+				},
+				"text": "Actualiser",
+				"textArray": []
+			}
+		},
+		{
+			"id": "lab_TABLE_32807",
+			"tagName": "TABLE",
+			"attributes": [],
+			"style": {
+				"style": {
+					"border-top-width": "1px",
+					"border-right-width": "1px",
+					"border-bottom-width": "1px",
+					"border-left-width": "1px",
+					"border-top-style": "solid",
+					"border-right-style": "solid",
+					"border-bottom-style": "solid",
+					"border-left-style": "solid",
+					"border-top-color": "black",
+					"border-right-color": "black",
+					"border-bottom-color": "black",
+					"border-left-color": "black",
+					"border-image-source": "initial",
+					"border-image-slice": "initial",
+					"border-image-width": "initial",
+					"border-image-outset": "initial",
+					"border-image-repeat": "initial",
+					"width": "100svw",
+					"display": "none"
+				},
+				"text": "",
+				"textArray": []
+			}
+		},
+		{
+			"id": "popUpConnect",
+			"tagName": "SECTION",
+			"attributes": [],
+			"style": {
+				"style": {
+					"position": "fixed",
+					"z-index": "2",
+					"width": "100svw",
+					"height": "100svh",
+					"background-color": "rgba(0, 0, 0, 0.81)",
+					"display": "none",
+					"align-items": "center",
+					"justify-content": "center"
+				},
+				"text": "",
+				"textArray": []
+			}
+		},
+		{
+			"id": "popUpInscription",
+			"tagName": "SECTION",
+			"attributes": [],
+			"style": {
+				"style": {
+					"position": "fixed",
+					"z-index": "2",
+					"width": "100svw",
+					"height": "100svh",
+					"background-color": "rgba(0, 0, 0, 0.81)",
+					"display": "none",
+					"align-items": "center",
+					"justify-content": "center"
+				},
+				"text": "",
+				"textArray": []
+			}
+		},
+		{
+			"id": "lab_DIV_30830",
+			"tagName": "DIV",
+			"attributes": [],
+			"style": {
+				"parent": "bodyHome",
+				"style": {
+					"width": "100%",
+					"height": "11%",
+					"display": "flex",
+					"align-items": "center",
+					"justify-content": "space-around"
+				},
+				"text": "",
+				"textArray": []
+			}
+		},
+		{
+			"id": "lab_DIV_57073",
+			"tagName": "DIV",
+			"attributes": [],
+			"style": {
+				"parent": "lab_DIV_30830",
+				"style": {
+					"display": "flex",
+					"color": "white",
+					"height": "100%",
+					"width": "20%",
+					"font-family": "\"Montserrat-Regular-(1)\"",
+					"align-items": "center",
+					"justify-content": "space-around",
+					"font-size": "1.8svh"
+				},
+				"text": "",
+				"textArray": []
+			}
+		},
+		{
+			"id": "btn_home",
+			"tagName": "P",
+			"attributes": [],
+			"classes": "btnHead",
+			"style": {
+				"parent": "lab_DIV_57073",
+				"style": {
+					"cursor": "pointer",
+					"margin-top": "0px",
+					"margin-right": "0px",
+					"margin-bottom": "0px",
+					"margin-left": "0px",
+					"padding-top": "0px",
+					"padding-right": "0px",
+					"padding-bottom": "0px",
+					"padding-left": "0px",
+					"width": "5svw",
+					"height": "4svh",
+					"display": "flex",
+					"justify-content": "center",
+					"align-items": "center",
+					"transition-behavior": "normal",
+					"transition-duration": "0.3s",
+					"transition-timing-function": "ease",
+					"transition-delay": "0s",
+					"transition-property": "all"
+				},
+				"text": "ACCUEIL",
+				"textArray": []
+			}
+		},
+		{
+			"id": "btn_credit",
+			"tagName": "P",
+			"attributes": [],
+			"classes": "btnHead",
+			"style": {
+				"parent": "lab_DIV_57073",
+				"style": {
+					"cursor": "pointer",
+					"margin-top": "0px",
+					"margin-right": "0px",
+					"margin-bottom": "0px",
+					"margin-left": "0px",
+					"padding-top": "0px",
+					"padding-right": "0px",
+					"padding-bottom": "0px",
+					"padding-left": "0px",
+					"width": "5svw",
+					"height": "4svh",
+					"display": "flex",
+					"justify-content": "center",
+					"align-items": "center",
+					"transition-behavior": "normal",
+					"transition-duration": "0.3s",
+					"transition-timing-function": "ease",
+					"transition-delay": "0s",
+					"transition-property": "all"
+				},
+				"text": "CREDITS",
+				"textArray": []
+			}
+		},
+		{
+			"id": "btn_contactUs",
+			"tagName": "P",
+			"attributes": [],
+			"classes": "btnHead",
+			"style": {
+				"parent": "lab_DIV_57073",
+				"style": {
+					"cursor": "pointer",
+					"margin-top": "0px",
+					"margin-right": "0px",
+					"margin-bottom": "0px",
+					"margin-left": "0px",
+					"padding-top": "0px",
+					"padding-right": "0px",
+					"padding-bottom": "0px",
+					"padding-left": "0px",
+					"width": "9svw",
+					"height": "4svh",
+					"display": "flex",
+					"justify-content": "center",
+					"align-items": "center",
+					"transition-behavior": "normal",
+					"transition-duration": "0.3s",
+					"transition-timing-function": "ease",
+					"transition-delay": "0s",
+					"transition-property": "all"
+				},
+				"text": "NOUS CONTACTER",
+				"textArray": []
+			}
+		},
+		{
+			"id": "lab_DIV_48011",
+			"tagName": "DIV",
+			"attributes": [],
+			"style": {
+				"parent": "lab_DIV_30830",
+				"style": {
+					"display": "flex",
+					"color": "white",
+					"height": "100%",
+					"width": "35%",
+					"font-family": "\"Montserrat-Regular-(1)\"",
+					"align-items": "center",
+					"justify-content": "space-around",
+					"font-size": "1.8svh"
+				},
+				"text": "",
+				"textArray": []
+			}
+		},
+		{
+			"id": "searchBarGame",
+			"tagName": "INPUT",
+			"attributes": [
+				{
+					"attributeName": "type",
+					"attributeValue": "text"
+				},
+				{
+					"attributeName": "placeholder",
+					"attributeValue": "Recherchez un jeu..."
+				}
+			],
+			"style": {
+				"parent": "lab_DIV_48011",
+				"style": {
+					"width": "15svw",
+					"height": "3svh"
+				},
+				"text": "",
+				"textArray": []
+			}
+		},
+		{
+			"id": "lab_DIV_43087",
+			"tagName": "DIV",
+			"attributes": [],
+			"style": {
+				"parent": "lab_DIV_48011",
+				"style": {
+					"height": "4svh",
+					"width": "11svw",
+					"display": "flex",
+					"background-color": "rgb(60, 45, 135)"
+				},
+				"text": "",
+				"textArray": []
+			}
+		},
+		{
+			"id": "icone-marioContainer",
+			"tagName": "DIV",
+			"attributes": [],
+			"style": {
+				"parent": "lab_DIV_43087",
+				"style": {
+					"opacity": "1",
+					"width": "2svw"
+				},
+				"text": "",
+				"textArray": []
+			}
+		},
+		{
+			"id": "icone-mario",
+			"tagName": "IMG",
+			"attributes": [
+				{
+					"attributeName": "src",
+					"attributeValue": "/content/sections/home/img/icone-mario.webp"
+				}
+			],
+			"style": {
+				"parent": "icone-marioContainer",
+				"style": {
+					"width": "100%",
+					"height": "100%"
+				},
+				"text": "",
+				"textArray": []
+			}
+		},
+		{
+			"id": "btn_connect",
+			"tagName": "P",
+			"attributes": [],
+			"classes": "btnHead",
+			"style": {
+				"parent": "lab_DIV_43087",
+				"style": {
+					"cursor": "pointer",
+					"margin-top": "0px",
+					"margin-right": "0px",
+					"margin-bottom": "0px",
+					"margin-left": "0px",
+					"padding-top": "0px",
+					"padding-right": "0px",
+					"padding-bottom": "0px",
+					"padding-left": "0px",
+					"width": "9svw",
+					"height": "4svh",
+					"display": "flex",
+					"justify-content": "center",
+					"align-items": "center",
+					"transition-behavior": "normal",
+					"transition-duration": "0.3s",
+					"transition-timing-function": "ease",
+					"transition-delay": "0s",
+					"transition-property": "all"
+				},
+				"text": "SE CONNECTER",
+				"textArray": []
+			}
+		},
+		{
+			"id": "btn_inscription",
+			"tagName": "P",
+			"attributes": [],
+			"classes": "btnHead",
+			"style": {
+				"parent": "lab_DIV_48011",
+				"style": {
+					"cursor": "pointer",
+					"margin-top": "0px",
+					"margin-right": "0px",
+					"margin-bottom": "0px",
+					"margin-left": "0px",
+					"padding-top": "0px",
+					"padding-right": "0px",
+					"padding-bottom": "0px",
+					"padding-left": "0px",
+					"width": "6svw",
+					"height": "4svh",
+					"display": "flex",
+					"justify-content": "center",
+					"align-items": "center",
+					"transition-behavior": "normal",
+					"transition-duration": "0.3s",
+					"transition-timing-function": "ease",
+					"transition-delay": "0s",
+					"transition-property": "all"
+				},
+				"text": "S'INSCRIRE",
+				"textArray": []
+			}
+		},
+		{
+			"id": "btn_profil",
+			"tagName": "P",
+			"attributes": [],
+			"classes": "btnHead",
+			"style": {
+				"parent": "lab_DIV_48011",
+				"style": {
+					"display": "none",
+					"cursor": "pointer",
+					"margin-top": "0px",
+					"margin-right": "0px",
+					"margin-bottom": "0px",
+					"margin-left": "0px",
+					"padding-top": "0px",
+					"padding-right": "0px",
+					"padding-bottom": "0px",
+					"padding-left": "0px",
+					"width": "10svw",
+					"height": "4svh",
+					"justify-content": "center",
+					"align-items": "center",
+					"transition-behavior": "normal",
+					"transition-duration": "0.3s",
+					"transition-timing-function": "ease",
+					"transition-delay": "0s",
+					"transition-property": "all"
+				},
+				"text": "BONJOUR PROFIL",
+				"textArray": []
+			}
+		},
+		{
+			"id": "btn_deconnect",
+			"tagName": "P",
+			"attributes": [],
+			"classes": "btnHead",
+			"style": {
+				"parent": "lab_DIV_48011",
+				"style": {
+					"display": "none",
+					"cursor": "pointer",
+					"margin-top": "0px",
+					"margin-right": "0px",
+					"margin-bottom": "0px",
+					"margin-left": "0px",
+					"padding-top": "0px",
+					"padding-right": "0px",
+					"padding-bottom": "0px",
+					"padding-left": "0px",
+					"width": "9svw",
+					"height": "4svh",
+					"justify-content": "center",
+					"align-items": "center",
+					"transition-behavior": "normal",
+					"transition-duration": "0.3s",
+					"transition-timing-function": "ease",
+					"transition-delay": "0s",
+					"transition-property": "all"
+				},
+				"text": "DECONNEXION",
+				"textArray": []
+			}
+		},
+		{
+			"id": "btn_admin",
+			"tagName": "P",
+			"attributes": [],
+			"classes": "btnHead",
+			"style": {
+				"parent": "lab_DIV_48011",
+				"style": {
+					"display": "none",
+					"cursor": "pointer",
+					"margin-top": "0px",
+					"margin-right": "0px",
+					"margin-bottom": "0px",
+					"margin-left": "0px",
+					"padding-top": "0px",
+					"padding-right": "0px",
+					"padding-bottom": "0px",
+					"padding-left": "0px",
+					"width": "5svw",
+					"height": "4svh",
+					"justify-content": "center",
+					"align-items": "center",
+					"transition-behavior": "normal",
+					"transition-duration": "0.3s",
+					"transition-timing-function": "ease",
+					"transition-delay": "0s",
+					"transition-property": "all"
+				},
+				"text": "ADMIN",
+				"textArray": []
+			}
+		},
+		{
+			"id": "lab_DIV_99344",
+			"tagName": "DIV",
+			"attributes": [],
+			"style": {
+				"parent": "bodyHome",
+				"style": {
+					"width": "75%",
+					"height": "1%",
+					"border-top-width": "3px",
+					"border-top-style": "solid",
+					"border-top-color": "white"
+				},
+				"text": "",
+				"textArray": []
+			}
+		},
+		{
+			"id": "lab_DIV_67223",
+			"tagName": "DIV",
+			"attributes": [],
+			"style": {
+				"parent": "bodyHome",
+				"style": {
+					"width": "100%",
+					"height": "60%",
+					"display": "flex",
+					"flex-direction": "row",
+					"justify-content": "flex-start",
+					"align-items": "center"
+				},
+				"text": "",
+				"textArray": []
+			}
+		},
+		{
+			"id": "lab_DIV_42123",
+			"tagName": "DIV",
+			"attributes": [],
+			"style": {
+				"parent": "lab_DIV_67223",
+				"style": {
+					"height": "50%",
+					"width": "8%",
+					"display": "flex",
+					"flex-direction": "column",
+					"align-items": "center",
+					"justify-content": "space-around"
+				},
+				"text": "",
+				"textArray": []
+			}
+		},
+		{
+			"id": "lab_DIV_60805",
+			"tagName": "DIV",
+			"attributes": [],
+			"style": {
+				"parent": "lab_DIV_42123",
+				"style": {
+					"width": "1svw",
+					"height": "1svw",
+					"border-top-left-radius": "50%",
+					"border-top-right-radius": "50%",
+					"border-bottom-right-radius": "50%",
+					"border-bottom-left-radius": "50%",
+					"border-top-width": "2px",
+					"border-right-width": "2px",
+					"border-bottom-width": "2px",
+					"border-left-width": "2px",
+					"border-top-style": "solid",
+					"border-right-style": "solid",
+					"border-bottom-style": "solid",
+					"border-left-style": "solid",
+					"border-top-color": "white",
+					"border-right-color": "white",
+					"border-bottom-color": "white",
+					"border-left-color": "white",
+					"border-image-source": "initial",
+					"border-image-slice": "initial",
+					"border-image-width": "initial",
+					"border-image-outset": "initial",
+					"border-image-repeat": "initial"
+				},
+				"text": "",
+				"textArray": []
+			}
+		},
+		{
+			"id": "lab_DIV_95552",
+			"tagName": "DIV",
+			"attributes": [],
+			"style": {
+				"parent": "lab_DIV_42123",
+				"style": {
+					"width": "1svw",
+					"height": "1svw",
+					"border-top-left-radius": "50%",
+					"border-top-right-radius": "50%",
+					"border-bottom-right-radius": "50%",
+					"border-bottom-left-radius": "50%",
+					"border-top-width": "2px",
+					"border-right-width": "2px",
+					"border-bottom-width": "2px",
+					"border-left-width": "2px",
+					"border-top-style": "solid",
+					"border-right-style": "solid",
+					"border-bottom-style": "solid",
+					"border-left-style": "solid",
+					"border-top-color": "white",
+					"border-right-color": "white",
+					"border-bottom-color": "white",
+					"border-left-color": "white",
+					"border-image-source": "initial",
+					"border-image-slice": "initial",
+					"border-image-width": "initial",
+					"border-image-outset": "initial",
+					"border-image-repeat": "initial"
+				},
+				"text": "",
+				"textArray": []
+			}
+		},
+		{
+			"id": "lab_DIV_32783",
+			"tagName": "DIV",
+			"attributes": [],
+			"style": {
+				"parent": "lab_DIV_42123",
+				"style": {
+					"width": "1svw",
+					"height": "1svw",
+					"border-top-left-radius": "50%",
+					"border-top-right-radius": "50%",
+					"border-bottom-right-radius": "50%",
+					"border-bottom-left-radius": "50%",
+					"border-top-width": "2px",
+					"border-right-width": "2px",
+					"border-bottom-width": "2px",
+					"border-left-width": "2px",
+					"border-top-style": "solid",
+					"border-right-style": "solid",
+					"border-bottom-style": "solid",
+					"border-left-style": "solid",
+					"border-top-color": "white",
+					"border-right-color": "white",
+					"border-bottom-color": "white",
+					"border-left-color": "white",
+					"border-image-source": "initial",
+					"border-image-slice": "initial",
+					"border-image-width": "initial",
+					"border-image-outset": "initial",
+					"border-image-repeat": "initial"
+				},
+				"text": "",
+				"textArray": []
+			}
+		},
+		{
+			"id": "lab_DIV_62755",
+			"tagName": "DIV",
+			"attributes": [],
+			"style": {
+				"parent": "lab_DIV_42123",
+				"style": {
+					"width": "1svw",
+					"height": "1svw",
+					"border-top-left-radius": "50%",
+					"border-top-right-radius": "50%",
+					"border-bottom-right-radius": "50%",
+					"border-bottom-left-radius": "50%",
+					"border-top-width": "2px",
+					"border-right-width": "2px",
+					"border-bottom-width": "2px",
+					"border-left-width": "2px",
+					"border-top-style": "solid",
+					"border-right-style": "solid",
+					"border-bottom-style": "solid",
+					"border-left-style": "solid",
+					"border-top-color": "white",
+					"border-right-color": "white",
+					"border-bottom-color": "white",
+					"border-left-color": "white",
+					"border-image-source": "initial",
+					"border-image-slice": "initial",
+					"border-image-width": "initial",
+					"border-image-outset": "initial",
+					"border-image-repeat": "initial"
+				},
+				"text": "",
+				"textArray": []
+			}
+		},
+		{
+			"id": "lab_DIV_81011",
+			"tagName": "DIV",
+			"attributes": [],
+			"style": {
+				"parent": "lab_DIV_42123",
+				"style": {
+					"width": "1svw",
+					"height": "1svw",
+					"border-top-left-radius": "50%",
+					"border-top-right-radius": "50%",
+					"border-bottom-right-radius": "50%",
+					"border-bottom-left-radius": "50%",
+					"border-top-width": "2px",
+					"border-right-width": "2px",
+					"border-bottom-width": "2px",
+					"border-left-width": "2px",
+					"border-top-style": "solid",
+					"border-right-style": "solid",
+					"border-bottom-style": "solid",
+					"border-left-style": "solid",
+					"border-top-color": "white",
+					"border-right-color": "white",
+					"border-bottom-color": "white",
+					"border-left-color": "white",
+					"border-image-source": "initial",
+					"border-image-slice": "initial",
+					"border-image-width": "initial",
+					"border-image-outset": "initial",
+					"border-image-repeat": "initial"
+				},
+				"text": "",
+				"textArray": []
+			}
+		},
+		{
+			"id": "lab_DIV_97987",
+			"tagName": "DIV",
+			"attributes": [],
+			"style": {
+				"parent": "lab_DIV_42123",
+				"style": {
+					"width": "1svw",
+					"height": "1svw",
+					"border-top-left-radius": "50%",
+					"border-top-right-radius": "50%",
+					"border-bottom-right-radius": "50%",
+					"border-bottom-left-radius": "50%",
+					"border-top-width": "2px",
+					"border-right-width": "2px",
+					"border-bottom-width": "2px",
+					"border-left-width": "2px",
+					"border-top-style": "solid",
+					"border-right-style": "solid",
+					"border-bottom-style": "solid",
+					"border-left-style": "solid",
+					"border-top-color": "white",
+					"border-right-color": "white",
+					"border-bottom-color": "white",
+					"border-left-color": "white",
+					"border-image-source": "initial",
+					"border-image-slice": "initial",
+					"border-image-width": "initial",
+					"border-image-outset": "initial",
+					"border-image-repeat": "initial"
+				},
+				"text": "",
+				"textArray": []
+			}
+		},
+		{
+			"id": "lab_DIV_5418",
+			"tagName": "DIV",
+			"attributes": [],
+			"style": {
+				"parent": "lab_DIV_67223",
+				"style": {
+					"width": "100%",
+					"height": "80%",
+					"display": "flex",
+					"flex-direction": "column",
+					"justify-content": "space-around"
+				},
+				"text": "",
+				"textArray": []
+			}
+		},
+		{
+			"id": "logoblancContainer",
+			"tagName": "DIV",
+			"attributes": [],
+			"style": {
+				"parent": "lab_DIV_5418",
+				"style": {
+					"opacity": "1",
+					"width": "28svw",
+					"z-index": "1"
+				},
+				"text": "",
+				"textArray": []
+			}
+		},
+		{
+			"id": "logoblanc",
+			"tagName": "IMG",
+			"attributes": [
+				{
+					"attributeName": "src",
+					"attributeValue": "/content/sections/home/img/logoblanc.webp"
+				}
+			],
+			"style": {
+				"parent": "logoblancContainer",
+				"style": {
+					"max-height": "25svh"
+				},
+				"text": "",
+				"textArray": []
+			}
+		},
+		{
+			"id": "lab_P_76431",
+			"tagName": "P",
+			"attributes": [],
+			"style": {
+				"parent": "lab_DIV_5418",
+				"style": {
+					"color": "white",
+					"font-family": "\"Montserrat-Regular-(1)\"",
+					"width": "28svw",
+					"text-align": "justify",
+					"margin-top": "0px",
+					"margin-right": "0px",
+					"margin-bottom": "0px",
+					"margin-left": "0px",
+					"padding-top": "0px",
+					"padding-right": "0px",
+					"padding-bottom": "0px",
+					"padding-left": "0px"
+				},
+				"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla bibendum felis vel massa laoreet, vel scelerisque dui auctor. Nulla facilisi. Sed nec risus nec ligula placerat tincidunt. Nunc vitae congue nisl. Fusce auctor quam nec mauris blandit hendrerit.",
+				"textArray": []
+			}
+		},
+		{
+			"id": "lab_DIV_82582",
+			"tagName": "DIV",
+			"attributes": [],
+			"style": {
+				"parent": "bodyHome",
+				"style": {
+					"display": "flex",
+					"flex-direction": "column",
+					"width": "100%",
+					"height": "28%"
+				},
+				"text": "",
+				"textArray": []
+			}
+		},
+		{
+			"id": "lab_H2_48512",
+			"tagName": "H2",
+			"attributes": [],
+			"style": {
+				"parent": "lab_DIV_82582",
+				"style": {
+					"color": "white",
+					"font-family": "\"Montserrat-Regular-(1)\"",
+					"margin-top": "0px",
+					"margin-right": "0px",
+					"margin-bottom": "0px",
+					"margin-left": "0px",
+					"padding-top": "0px",
+					"padding-right": "0px",
+					"padding-bottom": "0px",
+					"padding-left": "0px",
+					"width": "15%",
+					"display": "flex",
+					"justify-content": "center",
+					"align-items": "center"
+				},
+				"text": "Liste des jeux",
+				"textArray": []
+			}
+		},
+		{
+			"id": "lab_DIV_90810",
+			"tagName": "DIV",
+			"attributes": [],
+			"style": {
+				"parent": "lab_DIV_82582",
+				"style": {
+					"width": "100%",
+					"height": "80%",
+					"display": "flex",
+					"align-items": "center",
+					"justify-content": "space-around"
+				},
+				"text": "",
+				"textArray": []
+			}
+		},
+		{
+			"id": "lab_DIV_75817",
+			"tagName": "DIV",
+			"attributes": [],
+			"style": {
+				"parent": "lab_DIV_90810",
+				"style": {
+					"width": "15%",
+					"height": "90%",
+					"display": "flex",
+					"flex-direction": "column"
+				},
+				"text": "",
+				"textArray": []
+			}
+		},
+		{
+			"id": "backjeuunContainer",
+			"tagName": "DIV",
+			"attributes": [],
+			"style": {
+				"parent": "lab_DIV_75817",
+				"style": {
+					"opacity": "1",
+					"width": "15svw",
+					"z-index": "1",
+					"height": "80%"
+				},
+				"text": "",
+				"textArray": []
+			}
+		},
+		{
+			"id": "backjeuun",
+			"tagName": "IMG",
+			"attributes": [
+				{
+					"attributeName": "src",
+					"attributeValue": "/content/sections/home/img/backjeuun.webp"
+				}
+			],
+			"style": {
+				"parent": "backjeuunContainer",
+				"style": {
+					"width": "100%",
+					"height": "100%"
+				},
+				"text": "",
+				"textArray": []
+			}
+		},
+		{
+			"id": "lab_H3_89846",
+			"tagName": "H3",
+			"attributes": [],
+			"style": {
+				"parent": "lab_DIV_75817",
+				"style": {
+					"height": "20%",
+					"width": "100%",
+					"display": "flex",
+					"align-items": "center",
+					"justify-content": "center",
+					"background-color": "white",
+					"margin-top": "0px",
+					"margin-right": "0px",
+					"margin-bottom": "0px",
+					"margin-left": "0px",
+					"padding-top": "0px",
+					"padding-right": "0px",
+					"padding-bottom": "0px",
+					"padding-left": "0px",
+					"font-family": "\"Montserrat-Regular-(1)\""
+				},
+				"text": "QUIZ GEEK",
+				"textArray": []
+			}
+		},
+		{
+			"id": "lab_DIV_58705",
+			"tagName": "DIV",
+			"attributes": [],
+			"style": {
+				"parent": "lab_DIV_90810",
+				"style": {
+					"width": "15%",
+					"height": "90%",
+					"display": "flex",
+					"flex-direction": "column"
+				},
+				"text": "",
+				"textArray": []
+			}
+		},
+		{
+			"id": "backjeudeuxContainer",
+			"tagName": "DIV",
+			"attributes": [],
+			"style": {
+				"parent": "lab_DIV_58705",
+				"style": {
+					"opacity": "1",
+					"width": "15svw",
+					"z-index": "1",
+					"height": "80%"
+				},
+				"text": "",
+				"textArray": []
+			}
+		},
+		{
+			"id": "backjeudeux",
+			"tagName": "IMG",
+			"attributes": [
+				{
+					"attributeName": "src",
+					"attributeValue": "/content/sections/home/img/backjeudeux.webp"
+				}
+			],
+			"style": {
+				"parent": "backjeudeuxContainer",
+				"style": {
+					"width": "100%",
+					"height": "100%"
+				},
+				"text": "",
+				"textArray": []
+			}
+		},
+		{
+			"id": "lab_H3_31410",
+			"tagName": "H3",
+			"attributes": [],
+			"style": {
+				"parent": "lab_DIV_58705",
+				"style": {
+					"height": "20%",
+					"width": "100%",
+					"display": "flex",
+					"align-items": "center",
+					"justify-content": "center",
+					"background-color": "white",
+					"margin-top": "0px",
+					"margin-right": "0px",
+					"margin-bottom": "0px",
+					"margin-left": "0px",
+					"padding-top": "0px",
+					"padding-right": "0px",
+					"padding-bottom": "0px",
+					"padding-left": "0px",
+					"font-family": "\"Montserrat-Regular-(1)\""
+				},
+				"text": "7 DIFFERENCES",
+				"textArray": []
+			}
+		},
+		{
+			"id": "lab_DIV_42508",
+			"tagName": "DIV",
+			"attributes": [],
+			"style": {
+				"parent": "lab_DIV_90810",
+				"style": {
+					"width": "15%",
+					"height": "90%",
+					"display": "flex",
+					"flex-direction": "column"
+				},
+				"text": "",
+				"textArray": []
+			}
+		},
+		{
+			"id": "backjeutroisContainer",
+			"tagName": "DIV",
+			"attributes": [],
+			"style": {
+				"parent": "lab_DIV_42508",
+				"style": {
+					"opacity": "1",
+					"width": "15svw",
+					"z-index": "1",
+					"height": "80%"
+				},
+				"text": "",
+				"textArray": []
+			}
+		},
+		{
+			"id": "backjeutrois",
+			"tagName": "IMG",
+			"attributes": [
+				{
+					"attributeName": "src",
+					"attributeValue": "/content/sections/home/img/backjeutrois.webp"
+				}
+			],
+			"style": {
+				"parent": "backjeutroisContainer",
+				"style": {
+					"width": "100%",
+					"height": "100%"
+				},
+				"text": "",
+				"textArray": []
+			}
+		},
+		{
+			"id": "lab_H3_57844",
+			"tagName": "H3",
+			"attributes": [],
+			"style": {
+				"parent": "lab_DIV_42508",
+				"style": {
+					"height": "20%",
+					"width": "100%",
+					"display": "flex",
+					"align-items": "center",
+					"justify-content": "center",
+					"background-color": "white",
+					"margin-top": "0px",
+					"margin-right": "0px",
+					"margin-bottom": "0px",
+					"margin-left": "0px",
+					"padding-top": "0px",
+					"padding-right": "0px",
+					"padding-bottom": "0px",
+					"padding-left": "0px",
+					"font-family": "\"Montserrat-Regular-(1)\""
+				},
+				"text": "LE JUSTE PRIX",
+				"textArray": []
+			}
+		},
+		{
+			"id": "lab_DIV_59753",
+			"tagName": "DIV",
+			"attributes": [],
+			"style": {
+				"parent": "lab_DIV_90810",
+				"style": {
+					"width": "15%",
+					"height": "90%",
+					"display": "flex",
+					"flex-direction": "column"
+				},
+				"text": "",
+				"textArray": []
+			}
+		},
+		{
+			"id": "backjeucinqContainer",
+			"tagName": "DIV",
+			"attributes": [],
+			"style": {
+				"parent": "lab_DIV_59753",
+				"style": {
+					"opacity": "1",
+					"width": "15svw",
+					"z-index": "1",
+					"height": "80%"
+				},
+				"text": "",
+				"textArray": []
+			}
+		},
+		{
+			"id": "backjeucinq",
+			"tagName": "IMG",
+			"attributes": [
+				{
+					"attributeName": "src",
+					"attributeValue": "/content/sections/home/img/backjeucinq.webp"
+				}
+			],
+			"style": {
+				"parent": "backjeucinqContainer",
+				"style": {
+					"width": "100%",
+					"height": "100%"
+				},
+				"text": "",
+				"textArray": []
+			}
+		},
+		{
+			"id": "lab_H3_67202",
+			"tagName": "H3",
+			"attributes": [],
+			"style": {
+				"parent": "lab_DIV_59753",
+				"style": {
+					"height": "20%",
+					"width": "100%",
+					"display": "flex",
+					"align-items": "center",
+					"justify-content": "center",
+					"background-color": "white",
+					"margin-top": "0px",
+					"margin-right": "0px",
+					"margin-bottom": "0px",
+					"margin-left": "0px",
+					"padding-top": "0px",
+					"padding-right": "0px",
+					"padding-bottom": "0px",
+					"padding-left": "0px",
+					"font-family": "\"Montserrat-Regular-(1)\""
+				},
+				"text": "FLAPPY BIRD",
+				"textArray": []
+			}
+		},
+		{
+			"id": "lab_DIV_682",
+			"tagName": "DIV",
+			"attributes": [],
+			"style": {
+				"parent": "lab_DIV_90810",
+				"style": {
+					"width": "15%",
+					"height": "90%",
+					"display": "flex",
+					"flex-direction": "column"
+				},
+				"text": "",
+				"textArray": []
+			}
+		},
+		{
+			"id": "backjeuquatrenondispoContainer",
+			"tagName": "DIV",
+			"attributes": [],
+			"style": {
+				"parent": "lab_DIV_682",
+				"style": {
+					"opacity": "1",
+					"width": "15svw",
+					"z-index": "1",
+					"height": "80%"
+				},
+				"text": "",
+				"textArray": []
+			}
+		},
+		{
+			"id": "backjeuquatrenondispo",
+			"tagName": "IMG",
+			"attributes": [
+				{
+					"attributeName": "src",
+					"attributeValue": "/content/sections/home/img/backjeuquatrenondispo.webp"
+				}
+			],
+			"style": {
+				"parent": "backjeuquatrenondispoContainer",
+				"style": {
+					"width": "100%",
+					"height": "100%"
+				},
+				"text": "",
+				"textArray": []
+			}
+		},
+		{
+			"id": "lab_H3_92255",
+			"tagName": "H3",
+			"attributes": [],
+			"style": {
+				"parent": "lab_DIV_682",
+				"style": {
+					"height": "20%",
+					"width": "100%",
+					"display": "flex",
+					"align-items": "center",
+					"justify-content": "center",
+					"background-color": "white",
+					"margin-top": "0px",
+					"margin-right": "0px",
+					"margin-bottom": "0px",
+					"margin-left": "0px",
+					"padding-top": "0px",
+					"padding-right": "0px",
+					"padding-bottom": "0px",
+					"padding-left": "0px",
+					"font-family": "\"Montserrat-Regular-(1)\""
+				},
+				"text": "SNAKE",
+				"textArray": []
+			}
+		},
+		{
+			"id": "lab_DIV_76245",
+			"tagName": "DIV",
+			"attributes": [],
+			"style": {
+				"parent": "lab_DIV_90810",
+				"style": {
+					"width": "15%",
+					"height": "90%",
+					"display": "flex",
+					"flex-direction": "column"
+				},
+				"text": "",
+				"textArray": []
+			}
+		},
+		{
+			"id": "backjeusixnondispoContainer",
+			"tagName": "DIV",
+			"attributes": [],
+			"style": {
+				"parent": "lab_DIV_76245",
+				"style": {
+					"opacity": "1",
+					"width": "15svw",
+					"height": "80%",
+					"z-index": "1"
+				},
+				"text": "",
+				"textArray": []
+			}
+		},
+		{
+			"id": "backjeusixnondispo",
+			"tagName": "IMG",
+			"attributes": [
+				{
+					"attributeName": "src",
+					"attributeValue": "/content/sections/home/img/backjeusixnondispo.webp"
+				}
+			],
+			"style": {
+				"parent": "backjeusixnondispoContainer",
+				"style": {
+					"width": "100%",
+					"height": "100%"
+				},
+				"text": "",
+				"textArray": []
+			}
+		},
+		{
+			"id": "lab_H3_14586",
+			"tagName": "H3",
+			"attributes": [],
+			"style": {
+				"parent": "lab_DIV_76245",
+				"style": {
+					"height": "20%",
+					"width": "100%",
+					"display": "flex",
+					"align-items": "center",
+					"justify-content": "center",
+					"background-color": "white",
+					"margin-top": "0px",
+					"margin-right": "0px",
+					"margin-bottom": "0px",
+					"margin-left": "0px",
+					"padding-top": "0px",
+					"padding-right": "0px",
+					"padding-bottom": "0px",
+					"padding-left": "0px",
+					"font-family": "\"Montserrat-Regular-(1)\""
+				},
+				"text": "PING PONG",
+				"textArray": []
+			}
+		},
+		{
+			"id": "lab_LABEL_44988",
+			"tagName": "LABEL",
+			"attributes": [
+				{
+					"attributeName": "for",
+					"attributeValue": "name"
+				}
+			],
+			"style": {
+				"parent": "lab_FORM_34053",
+				"style": {},
+				"text": "Nom :",
+				"textArray": []
+			}
+		},
+		{
+			"id": "name",
+			"tagName": "INPUT",
+			"attributes": [
+				{
+					"attributeName": "type",
+					"attributeValue": "text"
+				},
+				{
+					"attributeName": "name",
+					"attributeValue": "user_name"
+				}
+			],
+			"style": {
+				"parent": "lab_FORM_34053",
+				"style": {},
+				"text": "",
+				"textArray": []
+			}
+		},
+		{
+			"id": "lab_LABEL_37002",
+			"tagName": "LABEL",
+			"attributes": [
+				{
+					"attributeName": "for",
+					"attributeValue": "mail"
+				}
+			],
+			"style": {
+				"parent": "lab_FORM_34053",
+				"style": {},
+				"text": "Mail :",
+				"textArray": []
+			}
+		},
+		{
+			"id": "mail",
+			"tagName": "INPUT",
+			"attributes": [
+				{
+					"attributeName": "type",
+					"attributeValue": "text"
+				},
+				{
+					"attributeName": "name",
+					"attributeValue": "user_mail"
+				}
+			],
+			"style": {
+				"parent": "lab_FORM_34053",
+				"style": {},
+				"text": "",
+				"textArray": []
+			}
+		},
+		{
+			"id": "lab_LABEL_8871",
+			"tagName": "LABEL",
+			"attributes": [
+				{
+					"attributeName": "for",
+					"attributeValue": "password"
+				}
+			],
+			"style": {
+				"parent": "lab_FORM_34053",
+				"style": {},
+				"text": "Mot de passe : ",
+				"textArray": []
+			}
+		},
+		{
+			"id": "password",
+			"tagName": "INPUT",
+			"attributes": [
+				{
+					"attributeName": "type",
+					"attributeValue": "password"
+				},
+				{
+					"attributeName": "name",
+					"attributeValue": "user_password"
+				}
+			],
+			"style": {
+				"parent": "lab_FORM_34053",
+				"style": {},
+				"text": "",
+				"textArray": []
+			}
+		},
+		{
+			"id": "btn_form",
+			"tagName": "DIV",
+			"attributes": [],
+			"style": {
+				"parent": "lab_FORM_34053",
+				"style": {
+					"cursor": "pointer",
+					"border-top-width": "1px",
+					"border-right-width": "1px",
+					"border-bottom-width": "1px",
+					"border-left-width": "1px",
+					"border-top-style": "solid",
+					"border-right-style": "solid",
+					"border-bottom-style": "solid",
+					"border-left-style": "solid",
+					"border-top-color": "black",
+					"border-right-color": "black",
+					"border-bottom-color": "black",
+					"border-left-color": "black",
+					"border-image-source": "initial",
+					"border-image-slice": "initial",
+					"border-image-width": "initial",
+					"border-image-outset": "initial",
+					"border-image-repeat": "initial",
+					"width": "5svw",
+					"height": "2svh"
+				},
+				"text": "S'identifier",
+				"textArray": []
+			}
+		},
+		{
+			"id": "lab_THEAD_39907",
+			"tagName": "THEAD",
+			"attributes": [],
+			"style": {
+				"parent": "lab_TABLE_32807",
+				"style": {},
+				"text": "",
+				"textArray": []
+			}
+		},
+		{
+			"id": "lab_TR_98468",
+			"tagName": "TR",
+			"attributes": [],
+			"style": {
+				"parent": "lab_THEAD_39907",
+				"style": {},
+				"text": "",
+				"textArray": []
+			}
+		},
+		{
+			"id": "lab_TH_14432",
+			"tagName": "TH",
+			"attributes": [],
+			"style": {
+				"parent": "lab_TR_98468",
+				"style": {},
+				"text": "ID",
+				"textArray": []
+			}
+		},
+		{
+			"id": "lab_TH_56381",
+			"tagName": "TH",
+			"attributes": [],
+			"style": {
+				"parent": "lab_TR_98468",
+				"style": {},
+				"text": "Nom",
+				"textArray": []
+			}
+		},
+		{
+			"id": "lab_TH_85551",
+			"tagName": "TH",
+			"attributes": [],
+			"style": {
+				"parent": "lab_TR_98468",
+				"style": {},
+				"text": "Email",
+				"textArray": []
+			}
+		},
+		{
+			"id": "lab_TH_38050",
+			"tagName": "TH",
+			"attributes": [],
+			"style": {
+				"parent": "lab_TR_98468",
+				"style": {},
+				"text": "mot de passe",
+				"textArray": []
+			}
+		},
+		{
+			"id": "lab_TBODY_90050",
+			"tagName": "TBODY",
+			"attributes": [],
+			"style": {
+				"parent": "lab_TABLE_32807",
+				"style": {},
+				"text": "",
+				"textArray": []
+			}
+		},
+		{
+			"id": "lab_DIV_80545",
+			"tagName": "DIV",
+			"attributes": [],
+			"style": {
+				"parent": "popUpConnect",
+				"style": {
+					"width": "40%",
+					"height": "50%",
+					"border-top-width": "4px",
+					"border-right-width": "4px",
+					"border-bottom-width": "4px",
+					"border-left-width": "4px",
+					"border-top-style": "solid",
+					"border-right-style": "solid",
+					"border-bottom-style": "solid",
+					"border-left-style": "solid",
+					"border-top-color": "rgb(60, 45, 135)",
+					"border-right-color": "rgb(60, 45, 135)",
+					"border-bottom-color": "rgb(60, 45, 135)",
+					"border-left-color": "rgb(60, 45, 135)",
+					"border-image-source": "initial",
+					"border-image-slice": "initial",
+					"border-image-width": "initial",
+					"border-image-outset": "initial",
+					"border-image-repeat": "initial",
+					"border-top-left-radius": "12px",
+					"border-top-right-radius": "12px",
+					"border-bottom-right-radius": "12px",
+					"border-bottom-left-radius": "12px",
+					"background-color": "white",
+					"opacity": "1",
+					"display": "flex",
+					"flex-direction": "column",
+					"align-items": "center",
+					"justify-content": "space-between"
+				},
+				"text": "",
+				"textArray": []
+			}
+		},
+		{
+			"id": "lab_H2_78169",
+			"tagName": "H2",
+			"attributes": [],
+			"style": {
+				"parent": "lab_DIV_80545",
+				"style": {
+					"width": "100%",
+					"height": "14%",
+					"margin-top": "0px",
+					"margin-right": "0px",
+					"margin-bottom": "0px",
+					"margin-left": "0px",
+					"padding-top": "0px",
+					"padding-right": "0px",
+					"padding-bottom": "0px",
+					"padding-left": "0px",
+					"font-family": "\"Montserrat-Regular-(1)\"",
+					"display": "flex",
+					"align-items": "center",
+					"justify-content": "center",
+					"font-size": "5svh",
+					"background-color": "rgb(60, 45, 135)",
+					"color": "white"
+				},
+				"text": "Connexion",
+				"textArray": []
+			}
+		},
+		{
+			"id": "lab_FORM_66367",
+			"tagName": "FORM",
+			"attributes": [],
+			"style": {
+				"parent": "lab_DIV_80545",
+				"style": {
+					"display": "flex",
+					"flex-direction": "column",
+					"align-items": "flex-start",
+					"justify-content": "space-around",
+					"width": "70%",
+					"height": "65%",
+					"font-family": "\"Montserrat-Regular-(1)\""
+				},
+				"text": "",
+				"textArray": []
+			}
+		},
+		{
+			"id": "lab_LABEL_33294",
+			"tagName": "LABEL",
+			"attributes": [
+				{
+					"attributeName": "for",
+					"attributeValue": "mail_conn"
+				}
+			],
+			"style": {
+				"parent": "lab_FORM_66367",
+				"style": {
+					"font-family": "Montserrat-Bold"
+				},
+				"text": "Votre mail :",
+				"textArray": []
+			}
+		},
+		{
+			"id": "mail_conn",
+			"tagName": "INPUT",
+			"attributes": [
+				{
+					"attributeName": "type",
+					"attributeValue": "text"
+				},
+				{
+					"attributeName": "name",
+					"attributeValue": "mail_conn"
+				}
+			],
+			"style": {
+				"parent": "lab_FORM_66367",
+				"style": {
+					"width": "80%",
+					"height": "8%",
+					"border-top-width": "3px",
+					"border-right-width": "3px",
+					"border-bottom-width": "3px",
+					"border-left-width": "3px",
+					"border-top-style": "solid",
+					"border-right-style": "solid",
+					"border-bottom-style": "solid",
+					"border-left-style": "solid",
+					"border-top-color": "rgb(60, 45, 135)",
+					"border-right-color": "rgb(60, 45, 135)",
+					"border-bottom-color": "rgb(60, 45, 135)",
+					"border-left-color": "rgb(60, 45, 135)",
+					"border-image-source": "initial",
+					"border-image-slice": "initial",
+					"border-image-width": "initial",
+					"border-image-outset": "initial",
+					"border-image-repeat": "initial",
+					"text-indent": "2svw"
+				},
+				"text": "",
+				"textArray": []
+			}
+		},
+		{
+			"id": "lab_LABEL_47513",
+			"tagName": "LABEL",
+			"attributes": [
+				{
+					"attributeName": "for",
+					"attributeValue": "password_conn"
+				}
+			],
+			"style": {
+				"parent": "lab_FORM_66367",
+				"style": {
+					"font-family": "Montserrat-Bold"
+				},
+				"text": "Votre mot de passe :",
+				"textArray": []
+			}
+		},
+		{
+			"id": "password_conn",
+			"tagName": "INPUT",
+			"attributes": [
+				{
+					"attributeName": "type",
+					"attributeValue": "password"
+				},
+				{
+					"attributeName": "name",
+					"attributeValue": "password_conn"
+				}
+			],
+			"style": {
+				"parent": "lab_FORM_66367",
+				"style": {
+					"width": "80%",
+					"height": "8%",
+					"border-top-width": "3px",
+					"border-right-width": "3px",
+					"border-bottom-width": "3px",
+					"border-left-width": "3px",
+					"border-top-style": "solid",
+					"border-right-style": "solid",
+					"border-bottom-style": "solid",
+					"border-left-style": "solid",
+					"border-top-color": "rgb(60, 45, 135)",
+					"border-right-color": "rgb(60, 45, 135)",
+					"border-bottom-color": "rgb(60, 45, 135)",
+					"border-left-color": "rgb(60, 45, 135)",
+					"border-image-source": "initial",
+					"border-image-slice": "initial",
+					"border-image-width": "initial",
+					"border-image-outset": "initial",
+					"border-image-repeat": "initial",
+					"text-indent": "2svw"
+				},
+				"text": "",
+				"textArray": []
+			}
+		},
+		{
+			"id": "btnConn",
+			"tagName": "DIV",
+			"attributes": [],
+			"style": {
+				"parent": "lab_DIV_80545",
+				"style": {
+					"background-color": "rgb(60, 45, 135)",
+					"color": "white",
+					"width": "18svw",
+					"height": "5svh",
+					"display": "flex",
+					"justify-content": "center",
+					"align-items": "center",
+					"border-top-left-radius": "20px",
+					"border-top-right-radius": "20px",
+					"border-bottom-right-radius": "20px",
+					"border-bottom-left-radius": "20px",
+					"cursor": "pointer",
+					"font-family": "\"Montserrat-Regular-(1)\"",
+					"font-size": "2svh",
+					"margin-bottom": "2svh"
+				},
+				"text": "Se connecter",
+				"textArray": []
+			}
+		},
+		{
+			"id": "croix2Container",
+			"tagName": "DIV",
+			"attributes": [],
+			"style": {
+				"parent": "popUpConnect",
+				"style": {
+					"position": "absolute",
+					"opacity": "1",
+					"top": "26svh",
+					"left": "68svw",
+					"width": "2svw",
+					"z-index": "1",
+					"cursor": "pointer"
+				},
+				"text": "",
+				"textArray": []
+			}
+		},
+		{
+			"id": "croix2",
+			"tagName": "IMG",
+			"attributes": [
+				{
+					"attributeName": "src",
+					"attributeValue": "/content/sections/home/img/croix2.webp"
+				}
+			],
+			"style": {
+				"parent": "croix2Container",
+				"style": {
+					"max-height": "3svh"
+				},
+				"text": "",
+				"textArray": []
+			}
+		},
+		{
+			"id": "lab_DIV_22805",
+			"tagName": "DIV",
+			"attributes": [],
+			"style": {
+				"parent": "popUpInscription",
+				"style": {
+					"width": "40%",
+					"height": "80%",
+					"border-top-width": "4px",
+					"border-right-width": "4px",
+					"border-bottom-width": "4px",
+					"border-left-width": "4px",
+					"border-top-style": "solid",
+					"border-right-style": "solid",
+					"border-bottom-style": "solid",
+					"border-left-style": "solid",
+					"border-top-color": "rgb(60, 45, 135)",
+					"border-right-color": "rgb(60, 45, 135)",
+					"border-bottom-color": "rgb(60, 45, 135)",
+					"border-left-color": "rgb(60, 45, 135)",
+					"border-image-source": "initial",
+					"border-image-slice": "initial",
+					"border-image-width": "initial",
+					"border-image-outset": "initial",
+					"border-image-repeat": "initial",
+					"border-top-left-radius": "12px",
+					"border-top-right-radius": "12px",
+					"border-bottom-right-radius": "12px",
+					"border-bottom-left-radius": "12px",
+					"background-color": "white",
+					"opacity": "1",
+					"display": "flex",
+					"flex-direction": "column",
+					"align-items": "center",
+					"justify-content": "space-between"
+				},
+				"text": "",
+				"textArray": []
+			}
+		},
+		{
+			"id": "lab_H2_6358",
+			"tagName": "H2",
+			"attributes": [],
+			"style": {
+				"parent": "lab_DIV_22805",
+				"style": {
+					"width": "100%",
+					"height": "10%",
+					"margin-top": "0px",
+					"margin-right": "0px",
+					"margin-bottom": "0px",
+					"margin-left": "0px",
+					"padding-top": "0px",
+					"padding-right": "0px",
+					"padding-bottom": "0px",
+					"padding-left": "0px",
+					"font-family": "\"Montserrat-Regular-(1)\"",
+					"display": "flex",
+					"align-items": "center",
+					"justify-content": "center",
+					"font-size": "5svh",
+					"background-color": "rgb(60, 45, 135)",
+					"color": "white"
+				},
+				"text": "Inscription",
+				"textArray": []
+			}
+		},
+		{
+			"id": "lab_FORM_83254",
+			"tagName": "FORM",
+			"attributes": [],
+			"style": {
+				"parent": "lab_DIV_22805",
+				"style": {
+					"display": "flex",
+					"flex-direction": "column",
+					"align-items": "flex-start",
+					"justify-content": "space-around",
+					"width": "70%",
+					"height": "75%",
+					"font-family": "\"Montserrat-Regular-(1)\""
+				},
+				"text": "",
+				"textArray": []
+			}
+		},
+		{
+			"id": "lab_LABEL_4642",
+			"tagName": "LABEL",
+			"attributes": [
+				{
+					"attributeName": "for",
+					"attributeValue": "pseudos_ins"
+				}
+			],
+			"style": {
+				"parent": "lab_FORM_83254",
+				"style": {
+					"font-family": "Montserrat-Bold"
+				},
+				"text": "Votre pseudo : ",
+				"textArray": []
+			}
+		},
+		{
+			"id": "pseudos_ins",
+			"tagName": "INPUT",
+			"attributes": [
+				{
+					"attributeName": "type",
+					"attributeValue": "text"
+				},
+				{
+					"attributeName": "name",
+					"attributeValue": "pseudos_ins"
+				},
+				{
+					"attributeName": "placeholder",
+					"attributeValue": "Quel est votre pseudo ?"
+				}
+			],
+			"style": {
+				"parent": "lab_FORM_83254",
+				"style": {
+					"width": "80%",
+					"height": "4%",
+					"border-top-width": "3px",
+					"border-right-width": "3px",
+					"border-bottom-width": "3px",
+					"border-left-width": "3px",
+					"border-top-style": "solid",
+					"border-right-style": "solid",
+					"border-bottom-style": "solid",
+					"border-left-style": "solid",
+					"border-top-color": "rgb(60, 45, 135)",
+					"border-right-color": "rgb(60, 45, 135)",
+					"border-bottom-color": "rgb(60, 45, 135)",
+					"border-left-color": "rgb(60, 45, 135)",
+					"border-image-source": "initial",
+					"border-image-slice": "initial",
+					"border-image-width": "initial",
+					"border-image-outset": "initial",
+					"border-image-repeat": "initial",
+					"text-indent": "2svw"
+				},
+				"text": "",
+				"textArray": []
+			}
+		},
+		{
+			"id": "lab_LABEL_52985",
+			"tagName": "LABEL",
+			"attributes": [
+				{
+					"attributeName": "for",
+					"attributeValue": "email_ins"
+				}
+			],
+			"style": {
+				"parent": "lab_FORM_83254",
+				"style": {
+					"font-family": "Montserrat-Bold"
+				},
+				"text": "Votre adresse mail :",
+				"textArray": []
+			}
+		},
+		{
+			"id": "email_ins",
+			"tagName": "INPUT",
+			"attributes": [
+				{
+					"attributeName": "type",
+					"attributeValue": "text"
+				},
+				{
+					"attributeName": "name",
+					"attributeValue": "email_ins"
+				},
+				{
+					"attributeName": "placeholder",
+					"attributeValue": "Quel est votre adresse mail ?"
+				}
+			],
+			"style": {
+				"parent": "lab_FORM_83254",
+				"style": {
+					"width": "80%",
+					"height": "4%",
+					"border-top-width": "3px",
+					"border-right-width": "3px",
+					"border-bottom-width": "3px",
+					"border-left-width": "3px",
+					"border-top-style": "solid",
+					"border-right-style": "solid",
+					"border-bottom-style": "solid",
+					"border-left-style": "solid",
+					"border-top-color": "rgb(60, 45, 135)",
+					"border-right-color": "rgb(60, 45, 135)",
+					"border-bottom-color": "rgb(60, 45, 135)",
+					"border-left-color": "rgb(60, 45, 135)",
+					"border-image-source": "initial",
+					"border-image-slice": "initial",
+					"border-image-width": "initial",
+					"border-image-outset": "initial",
+					"border-image-repeat": "initial",
+					"text-indent": "2svw"
+				},
+				"text": "",
+				"textArray": []
+			}
+		},
+		{
+			"id": "lab_LABEL_73566",
+			"tagName": "LABEL",
+			"attributes": [
+				{
+					"attributeName": "for",
+					"attributeValue": "name_ins"
+				}
+			],
+			"style": {
+				"parent": "lab_FORM_83254",
+				"style": {
+					"font-family": "Montserrat-Bold"
+				},
+				"text": "Votre nom :",
+				"textArray": []
+			}
+		},
+		{
+			"id": "name_ins",
+			"tagName": "INPUT",
+			"attributes": [
+				{
+					"attributeName": "type",
+					"attributeValue": "text"
+				},
+				{
+					"attributeName": "name",
+					"attributeValue": "name_ins"
+				},
+				{
+					"attributeName": "placeholder",
+					"attributeValue": "Quel est votre nom de famille"
+				}
+			],
+			"style": {
+				"parent": "lab_FORM_83254",
+				"style": {
+					"width": "80%",
+					"height": "4%",
+					"border-top-width": "3px",
+					"border-right-width": "3px",
+					"border-bottom-width": "3px",
+					"border-left-width": "3px",
+					"border-top-style": "solid",
+					"border-right-style": "solid",
+					"border-bottom-style": "solid",
+					"border-left-style": "solid",
+					"border-top-color": "rgb(60, 45, 135)",
+					"border-right-color": "rgb(60, 45, 135)",
+					"border-bottom-color": "rgb(60, 45, 135)",
+					"border-left-color": "rgb(60, 45, 135)",
+					"border-image-source": "initial",
+					"border-image-slice": "initial",
+					"border-image-width": "initial",
+					"border-image-outset": "initial",
+					"border-image-repeat": "initial",
+					"text-indent": "2svw"
+				},
+				"text": "",
+				"textArray": []
+			}
+		},
+		{
+			"id": "lab_LABEL_86339",
+			"tagName": "LABEL",
+			"attributes": [
+				{
+					"attributeName": "for",
+					"attributeValue": "firstName_ins"
+				}
+			],
+			"style": {
+				"parent": "lab_FORM_83254",
+				"style": {
+					"font-family": "Montserrat-Bold"
+				},
+				"text": "Votre prénom :",
+				"textArray": []
+			}
+		},
+		{
+			"id": "firstName_ins",
+			"tagName": "INPUT",
+			"attributes": [
+				{
+					"attributeName": "type",
+					"attributeValue": "text"
+				},
+				{
+					"attributeName": "name",
+					"attributeValue": "firstName_ins"
+				},
+				{
+					"attributeName": "placeholder",
+					"attributeValue": "Quel est votre nom ?"
+				}
+			],
+			"style": {
+				"parent": "lab_FORM_83254",
+				"style": {
+					"width": "80%",
+					"height": "4%",
+					"border-top-width": "3px",
+					"border-right-width": "3px",
+					"border-bottom-width": "3px",
+					"border-left-width": "3px",
+					"border-top-style": "solid",
+					"border-right-style": "solid",
+					"border-bottom-style": "solid",
+					"border-left-style": "solid",
+					"border-top-color": "rgb(60, 45, 135)",
+					"border-right-color": "rgb(60, 45, 135)",
+					"border-bottom-color": "rgb(60, 45, 135)",
+					"border-left-color": "rgb(60, 45, 135)",
+					"border-image-source": "initial",
+					"border-image-slice": "initial",
+					"border-image-width": "initial",
+					"border-image-outset": "initial",
+					"border-image-repeat": "initial",
+					"text-indent": "2svw"
+				},
+				"text": "",
+				"textArray": []
+			}
+		},
+		{
+			"id": "lab_LABEL_14114",
+			"tagName": "LABEL",
+			"attributes": [
+				{
+					"attributeName": "for",
+					"attributeValue": "password_ins"
+				}
+			],
+			"style": {
+				"parent": "lab_FORM_83254",
+				"style": {
+					"font-family": "Montserrat-Bold"
+				},
+				"text": "Votre mot de passe :",
+				"textArray": []
+			}
+		},
+		{
+			"id": "password_ins",
+			"tagName": "INPUT",
+			"attributes": [
+				{
+					"attributeName": "type",
+					"attributeValue": "password"
+				},
+				{
+					"attributeName": "name",
+					"attributeValue": "password_ins"
+				}
+			],
+			"style": {
+				"parent": "lab_FORM_83254",
+				"style": {
+					"width": "80%",
+					"height": "4%",
+					"border-top-width": "3px",
+					"border-right-width": "3px",
+					"border-bottom-width": "3px",
+					"border-left-width": "3px",
+					"border-top-style": "solid",
+					"border-right-style": "solid",
+					"border-bottom-style": "solid",
+					"border-left-style": "solid",
+					"border-top-color": "rgb(60, 45, 135)",
+					"border-right-color": "rgb(60, 45, 135)",
+					"border-bottom-color": "rgb(60, 45, 135)",
+					"border-left-color": "rgb(60, 45, 135)",
+					"border-image-source": "initial",
+					"border-image-slice": "initial",
+					"border-image-width": "initial",
+					"border-image-outset": "initial",
+					"border-image-repeat": "initial",
+					"text-indent": "2svw"
+				},
+				"text": "",
+				"textArray": []
+			}
+		},
+		{
+			"id": "lab_LABEL_54142",
+			"tagName": "LABEL",
+			"attributes": [
+				{
+					"attributeName": "for",
+					"attributeValue": "confPassword_ins"
+				}
+			],
+			"style": {
+				"parent": "lab_FORM_83254",
+				"style": {
+					"font-family": "Montserrat-Bold"
+				},
+				"text": "Confirmez votre mot de passe",
+				"textArray": []
+			}
+		},
+		{
+			"id": "confPassword_ins",
+			"tagName": "INPUT",
+			"attributes": [
+				{
+					"attributeName": "type",
+					"attributeValue": "password"
+				},
+				{
+					"attributeName": "name",
+					"attributeValue": "confPassword_ins"
+				}
+			],
+			"style": {
+				"parent": "lab_FORM_83254",
+				"style": {
+					"width": "80%",
+					"height": "4%",
+					"border-top-width": "3px",
+					"border-right-width": "3px",
+					"border-bottom-width": "3px",
+					"border-left-width": "3px",
+					"border-top-style": "solid",
+					"border-right-style": "solid",
+					"border-bottom-style": "solid",
+					"border-left-style": "solid",
+					"border-top-color": "rgb(60, 45, 135)",
+					"border-right-color": "rgb(60, 45, 135)",
+					"border-bottom-color": "rgb(60, 45, 135)",
+					"border-left-color": "rgb(60, 45, 135)",
+					"border-image-source": "initial",
+					"border-image-slice": "initial",
+					"border-image-width": "initial",
+					"border-image-outset": "initial",
+					"border-image-repeat": "initial",
+					"text-indent": "2svw"
+				},
+				"text": "",
+				"textArray": []
+			}
+		},
+		{
+			"id": "btninsc",
+			"tagName": "DIV",
+			"attributes": [],
+			"style": {
+				"parent": "lab_DIV_22805",
+				"style": {
+					"background-color": "rgb(60, 45, 135)",
+					"color": "white",
+					"width": "18svw",
+					"height": "5svh",
+					"display": "flex",
+					"justify-content": "center",
+					"align-items": "center",
+					"border-top-left-radius": "20px",
+					"border-top-right-radius": "20px",
+					"border-bottom-right-radius": "20px",
+					"border-bottom-left-radius": "20px",
+					"cursor": "pointer",
+					"font-family": "\"Montserrat-Regular-(1)\"",
+					"font-size": "2svh",
+					"margin-bottom": "2svh"
+				},
+				"text": "S'inscrire",
+				"textArray": []
+			}
+		},
+		{
+			"id": "croixContainer",
+			"tagName": "DIV",
+			"attributes": [],
+			"style": {
+				"parent": "lab_DIV_22805",
+				"style": {
+					"position": "absolute",
+					"opacity": "1",
+					"top": "11svh",
+					"left": "68svw",
+					"width": "2svw",
+					"z-index": "1",
+					"cursor": "pointer"
+				},
+				"text": "",
+				"textArray": []
+			}
+		},
+		{
+			"id": "croix",
+			"tagName": "IMG",
+			"attributes": [
+				{
+					"attributeName": "src",
+					"attributeValue": "/content/sections/home/img/croix.webp"
+				}
+			],
+			"style": {
+				"parent": "croixContainer",
+				"style": {
+					"max-height": "3svh"
+				},
+				"text": "",
+				"textArray": []
+			}
+		}
+	]
+}
