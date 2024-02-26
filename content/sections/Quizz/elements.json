@@ -164,7 +164,7 @@
 					"transition-delay": "0s",
 					"transition-property": "all"
 				},
-				"text": "Partie Solo",
+				"text": "Partie Solos",
 				"textArray": []
 			}
 		},
@@ -271,7 +271,7 @@
 				"style": {
 					"width": "50%",
 					"height": "100%",
-					"display": "none",
+					"display": "flex",
 					"flex-direction": "column",
 					"align-items": "center",
 					"justify-content": "space-around"
@@ -311,7 +311,7 @@
 					"border-bottom-right-radius": "20px",
 					"border-bottom-left-radius": "20px",
 					"background-color": "rgb(235, 221, 221)",
-					"margin-left": "130%",
+					"margin-left": "0px",
 					"transition-behavior": "normal",
 					"transition-duration": "1s",
 					"transition-timing-function": "cubic-bezier(0, 0, 0.02, 1.02)",
@@ -400,7 +400,7 @@
 					"border-bottom-right-radius": "20px",
 					"border-bottom-left-radius": "20px",
 					"background-color": "rgb(235, 221, 221)",
-					"margin-left": "130%",
+					"margin-left": "0px",
 					"transition-behavior": "normal",
 					"transition-duration": "1s",
 					"transition-timing-function": "cubic-bezier(0, 0, 0.02, 1.02)",
@@ -489,7 +489,7 @@
 					"border-bottom-right-radius": "20px",
 					"border-bottom-left-radius": "20px",
 					"background-color": "rgb(235, 221, 221)",
-					"margin-left": "130%",
+					"margin-left": "0px",
 					"transition-behavior": "normal",
 					"transition-duration": "1s",
 					"transition-timing-function": "cubic-bezier(0, 0, 0.02, 1.02)",
@@ -1285,7 +1285,7 @@
 				"style": {
 					"width": "50%",
 					"height": "100%",
-					"display": "flex",
+					"display": "none",
 					"flex-direction": "column",
 					"align-items": "center",
 					"justify-content": "center"
@@ -1318,8 +1318,8 @@
 					"transition-timing-function": "ease",
 					"transition-delay": "0s",
 					"transition-property": "all",
-					"rotate": "0deg",
-					"margin-left": "0%"
+					"rotate": "360deg",
+					"margin-left": "150%"
 				},
 				"text": "",
 				"textArray": []
