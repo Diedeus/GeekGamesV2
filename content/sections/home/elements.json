@@ -292,7 +292,7 @@
 					"transition-delay": "0s",
 					"transition-property": "all"
 				},
-				"text": "NOUS CONTACTER",
+				"text": "NOUS CONTACTEZ",
 				"textArray": []
 			}
 		},
@@ -924,7 +924,7 @@
 					"cursor": "pointer",
 					"font-size": "1.8svh"
 				},
-				"text": "Accéder au quizz!",
+				"text": "Accéder au quizz",
 				"textArray": []
 			}
 		},
