@@ -292,7 +292,7 @@
 					"transition-delay": "0s",
 					"transition-property": "all"
 				},
-				"text": "NOUS CONTACTEZ",
+				"text": "NOUS CONTACTER",
 				"textArray": []
 			}
 		},
@@ -902,7 +902,7 @@
 					{
 						"node": "text",
 						"pos": 0,
-						"textContent": "Bien le bonjour jeune aventuriers et bienvenues sur GEEKGAME !"
+						"textContent": "Bien le bonjour jeune aventurier et bienvenue sur GEEKGAME !"
 					},
 					{
 						"node": "BR",
