@@ -292,7 +292,7 @@
 					"transition-delay": "0s",
 					"transition-property": "all"
 				},
-				"text": "NOUS CONTACTEZ",
+				"text": "NOUS CONTACTER",
 				"textArray": []
 			}
 		},
@@ -630,8 +630,7 @@
 					"border-image-slice": "initial",
 					"border-image-width": "initial",
 					"border-image-outset": "initial",
-					"border-image-repeat": "initial",
-					"background-color": "white"
+					"border-image-repeat": "initial"
 				},
 				"text": "",
 				"textArray": []
@@ -898,8 +897,32 @@
 					"border-bottom-right-radius": "15px",
 					"font-size": "2svh"
 				},
-				"text": "Êtes-vous un véritable passionné de la culture geek ? Mettez vos connaissances à l'épreuve avec notre quiz geek.",
-				"textArray": []
+				"text": "",
+				"textArray": [
+					{
+						"node": "text",
+						"pos": 0,
+						"textContent": "Bien le bonjour jeune aventurier et bienvenue sur GEEKGAME !"
+					},
+					{
+						"node": "BR",
+						"pos": 1
+					},
+					{
+						"node": "text",
+						"pos": 2,
+						"textContent": " Ici tu trouveras plusieurs mini jeux du plus simple comme le Quizz en passant par des jeux plus complexe comme le Flappy bird ou encore le Snake .. "
+					},
+					{
+						"node": "BR",
+						"pos": 3
+					},
+					{
+						"node": "text",
+						"pos": 4,
+						"textContent": " Entraîne toi et compare tes scores avec ceux de tes amis et devient le MEILLEUR DES GEEKS "
+					}
+				]
 			}
 		},
 		{
@@ -911,7 +934,7 @@
 				"style": {
 					"width": "10svw",
 					"height": "5svh",
-					"display": "flex",
+					"display": "none",
 					"align-items": "center",
 					"justify-content": "center",
 					"background-color": "rgb(60, 45, 135)",
