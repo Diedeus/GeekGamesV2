@@ -196,3 +196,188 @@ btn_deconnect.addEventListener('click', () =>{
 btn_admin.addEventListener('click', () =>{
     window.location.href = 'http://154.40.130.22:1112/adminGeekgames'
 })
+
+                                                            //* affichage description jeu
+
+
+ const descrGameArray = [
+    {
+        name: "basique",
+        text: "Bien le bonjour jeune aventurier et bienvenue sur GEEKGAME !<br> Ici tu trouveras plusieurs mini jeux du plus simple comme le Quizz en passant par des jeux plus complexe comme le Flappy bird ou encore le Snake .. <br> Entraîne toi et compare tes scores avec ceux de tes amis et devient le MEILLEUR DES GEEKS "
+    },
+    {
+        name : "quizz",
+        text : "Êtes-vous un véritable passionné de la culture geek ? Mettez vos connaissances à l'épreuve avec notre quiz geek."
+    },
+    {
+        name : "7Diff",
+        text : "Plongez dans un univers geek captivant avec notre jeu des 7 différences. Mettez votre sens de l\'observation à l\'épreuve.."
+    },
+    {
+        name : "juste prix",
+        text : "Êtes-vous prêt à estimer la valeur des objets et à défier votre instinct? Mettez vos talents d'évaluation à l'épreuve.."
+    },
+    {
+        name : "flappy bird", 
+        text : "Préparez-vous à vous envoler dans le monde de Flappy Bird version DRAGON BALL ! un jeu addictif et plein de défis !"
+    }
+     
+ ]
+
+ let btnDescription_quizz = document.querySelector('#lab_DIV_75817')
+ let btnDescription_7diff = document.querySelector('#lab_DIV_58705')
+ let btnDescription_justePrix = document.querySelector('#lab_DIV_42508')
+ let btnDescription_flappyBird = document.querySelector('#lab_DIV_59753')
+
+ let round_quizz = document.querySelector('#lab_DIV_60805')
+ let round_7diff = document.querySelector('#lab_DIV_95552')
+ let round_justePrix = document.querySelector('#lab_DIV_32783')
+ let round_flappyBird = document.querySelector('#lab_DIV_62755')
+
+ let paraDescr = document.querySelector('#lab_P_76431')
+ let btnDescr = document.querySelector('#lab_DIV_3412')
+
+ round_quizz.style.backgroundColor = ''
+ round_7diff.style.backgroundColor = ''
+ round_justePrix.style.backgroundColor = ''
+ round_flappyBird.style.backgroundColor = ''
+
+ paraDescr.innerHTML = descrGameArray[0].text
+ btnDescr.style.display = 'none'
+
+ let varQuizz = 'false'
+
+ btnDescription_quizz.addEventListener('click', function() {
+
+    if(varQuizz === 'false') {
+        round_quizz.style.backgroundColor = 'white'
+        round_7diff.style.backgroundColor = ''
+        round_justePrix.style.backgroundColor = ''
+        round_flappyBird.style.backgroundColor = ''
+
+        paraDescr.innerHTML = descrGameArray[1].text
+        btnDescr.textContent = "Accéder au " + descrGameArray[1].name
+        btnDescr.style.display = 'flex'
+
+        varQuizz = 'true'
+        var7diff = 'false'
+        varJustePrix = 'false'
+        varFlappyBird = 'false'
+
+        btnDescr.addEventListener('click', () => {
+            window.location.href = "http://154.40.130.22:1112/Quizz"
+        })
+    } else {
+        varQuizz = 'false'
+
+        round_quizz.style.backgroundColor = ''
+        round_7diff.style.backgroundColor = ''
+        round_justePrix.style.backgroundColor = ''
+        round_flappyBird.style.backgroundColor = ''
+
+        paraDescr.innerHTML = descrGameArray[0].text
+        btnDescr.style.display = 'none'
+    }
+ })
+
+ let var7diff = 'false'
+
+ btnDescription_7diff.addEventListener('click', function() {
+    if(var7diff === 'false') {
+        round_quizz.style.backgroundColor = ''
+        round_7diff.style.backgroundColor = 'white'
+        round_justePrix.style.backgroundColor = ''
+        round_flappyBird.style.backgroundColor = ''
+
+        paraDescr.innerHTML = descrGameArray[2].text
+        btnDescr.textContent = "Accéder au " + descrGameArray[2].name
+        btnDescr.style.display = 'flex'
+
+        varQuizz = 'false'
+        var7diff = 'true'
+        varJustePrix = 'false'
+        varFlappyBird = 'false'
+
+        // btnDescr.addEventListener('click', () => {
+        //     window.location.href = "http://154.40.130.22:1112/sandbox/Quizz"
+        // })
+    } else {
+        var7diff = 'false'
+
+        round_quizz.style.backgroundColor = ''
+        round_7diff.style.backgroundColor = ''
+        round_justePrix.style.backgroundColor = ''
+        round_flappyBird.style.backgroundColor = ''
+
+        paraDescr.innerHTML = descrGameArray[0].text
+        btnDescr.style.display = 'none'
+    }
+ })
+
+ let varJustePrix = 'false'
+
+ btnDescription_justePrix.addEventListener('click', function() {
+    if(varJustePrix === 'false') {
+        round_quizz.style.backgroundColor = ''
+        round_7diff.style.backgroundColor = ''
+        round_justePrix.style.backgroundColor = 'white'
+        round_flappyBird.style.backgroundColor = ''
+
+        paraDescr.innerHTML = descrGameArray[3].text
+        btnDescr.textContent = "Accéder au " + descrGameArray[3].name
+        btnDescr.style.display = 'flex'
+
+        varQuizz = 'false'
+        var7diff = 'false'
+        varJustePrix = 'true'
+        varFlappyBird = 'false'
+
+        // btnDescr.addEventListener('click', () => {
+        //     window.location.href = "http://154.40.130.22:1112/sandbox/Quizz"
+        // })
+    } else {
+        varJustePrix = 'false'
+
+        round_quizz.style.backgroundColor = ''
+        round_7diff.style.backgroundColor = ''
+        round_justePrix.style.backgroundColor = ''
+        round_flappyBird.style.backgroundColor = ''
+
+        paraDescr.innerHTML = descrGameArray[0].text
+        btnDescr.style.display = 'none'
+    }
+ })
+
+ let varFlappyBird = 'false'
+
+ btnDescription_flappyBird.addEventListener('click', function(){
+    if(varFlappyBird === 'false') {
+        round_quizz.style.backgroundColor = ''
+        round_7diff.style.backgroundColor = ''
+        round_justePrix.style.backgroundColor = ''
+        round_flappyBird.style.backgroundColor = 'white'
+
+        paraDescr.innerHTML = descrGameArray[4].text
+        btnDescr.textContent = "Accéder au " + descrGameArray[4].name
+        btnDescr.style.display = 'flex'
+
+        varQuizz = 'false'
+        var7diff = 'false'
+        varJustePrix = 'false'
+        varFlappyBird = 'true'
+
+        // btnDescr.addEventListener('click', () => {
+        //     window.location.href = "http://154.40.130.22:1112/sandbox/Quizz"
+        // })
+    } else {
+        varFlappyBird = 'false'
+
+        round_quizz.style.backgroundColor = ''
+        round_7diff.style.backgroundColor = ''
+        round_justePrix.style.backgroundColor = ''
+        round_flappyBird.style.backgroundColor = ''
+
+        paraDescr.innerHTML = descrGameArray[0].text
+        btnDescr.style.display = 'none'
+    }
+ })

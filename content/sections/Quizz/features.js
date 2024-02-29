@@ -245,7 +245,7 @@ btn_multiplayerGame.addEventListener('click', () => {
 
 
 btn_returnHome.addEventListener('click', () => {
-    window.location.href= " http://154.40.130.22:1112/sandbox/home"
+    window.location.href= " http://154.40.130.22:1112/home"
 })
 
 let roundSoloGame = document.querySelector('#lab_DIV_71522')
@@ -286,6 +286,84 @@ function dispContainerMultiGame(){
         multiGame_container.style.display = 'none'
     }, 1000);
 }
+
+
+                                    //* formulaire proposition question
+
+function verifierTexte(input) {
+    const regex = /^[\p{L}0-9\s.,;:!?'"()\-]*$/u
+    return regex.test(input);
+ }
+
+ let propalQuestion = document.querySelector('#propalQuestion')
+ let propalReponseA = document.querySelector('#propalReponseA')
+ let propalReponseB = document.querySelector('#propalReponseB')
+ let propalReponseC = document.querySelector('#propalReponseC')
+ let propalReponseD = document.querySelector('#propalReponseD')
+ let propalReponse = document.querySelector('#propalReponse')
+ let difficulty = document.querySelector('#difficulty')
+
+ btn_propalQuestionQuizz.addEventListener('click', () => {
+
+    let verificationArticle = 'true'
+
+    const texteError = document.createElement('p')
+    texteError.textContent = "votre proposition ne respecte pas les règles d'écriture en vigueur"
+    texteError.style.color = 'red'
+    texteError.style.fontFamily = 'Montserrat-Regular-(1)'
+
+    if(!verifierTexte(propalQuestion.value)){
+        inptQuestion_container.appendChild(texteError)
+        verificationArticle = 'false'
+    }
+
+    if(!verifierTexte(propalReponseA.value)){
+        inptReponseA_container.appendChild(texteError)
+        verificationArticle = 'false'
+    }
+
+    if(!verifierTexte(propalReponseB.value)){
+        inptReponseB_container.appendChild(texteError)
+        verificationArticle = 'false'
+    }
+
+    if(!verifierTexte(propalReponseC.value)){
+        inptReponseC_container.appendChild(texteError)
+        verificationArticle = 'false'
+    }
+
+    if(!verifierTexte(propalReponseD.value)){
+        inptReponseD_container.appendChild(texteError)
+        verificationArticle = 'false'
+    }
+    
+    if(propalReponse.value !== 'A' && propalReponse.value !== 'B' && propalReponse.value !== 'C' && propalReponse.value !== 'D') {
+        inptReponse_container.appendChild(texteError)
+        verificationArticle = 'false'
+    }
+    
+    if(difficulty.value !== '1' && difficulty.value !== '2' && difficulty.value !== '3') {
+        inptDifficulty_container.appendChild(texteError)
+        verificationArticle = 'false'
+    }
+
+    if(verificationArticle === 'true'){
+
+        let propalArticle = {
+            questionPropose : propalQuestion.value,
+            reponseAPropose : propalReponseA.value,
+            reponseBPropose : propalReponseB.value,
+            reponseCPropose : propalReponseC.value,
+            reponseDPropose : propalReponseD.value, 
+            reponsePropose : propalReponse.value,
+            difficulty : difficulty.value
+        }
+
+        socket.emit('propositionArticle', propalArticle)
+    }
+
+ })
+
 
                                     //* FONCTION RESET
 
