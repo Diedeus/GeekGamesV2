@@ -67,6 +67,42 @@
 			}
 		},
 		{
+			"id": "propalQuestion_container",
+			"tagName": "SECTION",
+			"attributes": [],
+			"style": {
+				"style": {
+					"position": "fixed",
+					"top": "19.5svh",
+					"left": "5svw",
+					"width": "22svw",
+					"height": "72svh",
+					"background-color": "rgb(60, 45, 135)",
+					"border-top-width": "2px",
+					"border-right-width": "2px",
+					"border-bottom-width": "2px",
+					"border-left-width": "2px",
+					"border-top-style": "solid",
+					"border-right-style": "solid",
+					"border-bottom-style": "solid",
+					"border-left-style": "solid",
+					"border-top-color": "rgb(222, 203, 44)",
+					"border-right-color": "rgb(222, 203, 44)",
+					"border-bottom-color": "rgb(222, 203, 44)",
+					"border-left-color": "rgb(222, 203, 44)",
+					"border-image-source": "initial",
+					"border-image-slice": "initial",
+					"border-image-width": "initial",
+					"border-image-outset": "initial",
+					"border-image-repeat": "initial",
+					"display": "flex",
+					"flex-direction": "column"
+				},
+				"text": "",
+				"textArray": []
+			}
+		},
+		{
 			"id": "lab_DIV_30830",
 			"tagName": "DIV",
 			"attributes": [],
@@ -860,7 +896,8 @@
 				"style": {
 					"width": "100%",
 					"height": "90%",
-					"display": "flex"
+					"display": "flex",
+					"position": "relative"
 				},
 				"text": "",
 				"textArray": []
@@ -1285,6 +1322,76 @@
 			}
 		},
 		{
+			"id": "notifPropalQuestion",
+			"tagName": "DIV",
+			"attributes": [],
+			"style": {
+				"parent": "adminQuizz",
+				"style": {
+					"position": "absolute",
+					"bottom": "2svh",
+					"left": "1svw",
+					"width": "2svw",
+					"height": "2svw",
+					"background-color": "white",
+					"border-top-left-radius": "50%",
+					"border-top-right-radius": "50%",
+					"border-bottom-right-radius": "50%",
+					"border-bottom-left-radius": "50%",
+					"display": "flex",
+					"align-items": "center",
+					"justify-content": "center",
+					"cursor": "pointer"
+				},
+				"text": "",
+				"textArray": []
+			}
+		},
+		{
+			"id": "Random_path_Name_540567SVG",
+			"tagName": "svg",
+			"attributes": [
+				{
+					"attributeName": "viewBox",
+					"attributeValue": "0 0 448 512"
+				}
+			],
+			"classes": "bell-regularClass",
+			"style": {
+				"parent": "notifPropalQuestion",
+				"style": {
+					"width": "80%"
+				},
+				"text": ""
+			}
+		},
+		{
+			"id": "lab_P_6656",
+			"tagName": "P",
+			"attributes": [],
+			"style": {
+				"parent": "notifPropalQuestion",
+				"style": {
+					"background-color": "red",
+					"color": "white",
+					"font-family": "\"Montserrat-Regular-(1)\"",
+					"position": "absolute",
+					"top": "-1svh",
+					"right": "-0.3svw",
+					"margin-top": "0px",
+					"margin-right": "0px",
+					"margin-bottom": "0px",
+					"margin-left": "0px",
+					"width": "0.8svw",
+					"display": "flex",
+					"justify-content": "center",
+					"align-items": "center"
+				},
+				"text": "0",
+				"textArray": []
+			}
+		},
+		{
 			"id": "popUpGestionUser",
 			"tagName": "DIV",
 			"attributes": [],
@@ -1619,6 +1726,69 @@
 					"cursor": "pointer"
 				},
 				"text": "Annuler",
+				"textArray": []
+			}
+		},
+		{
+			"id": "ListPropalQuestion",
+			"tagName": "DIV",
+			"attributes": [],
+			"style": {
+				"parent": "propalQuestion_container",
+				"style": {
+					"display": "flex",
+					"flex-direction": "column",
+					"justify-content": "flex-start",
+					"align-items": "center",
+					"width": "100%",
+					"height": "85%",
+					"overflow-x": "hidden",
+					"overflow-y": "scroll"
+				},
+				"text": "",
+				"textArray": []
+			}
+		},
+		{
+			"id": "lab_DIV_5302",
+			"tagName": "DIV",
+			"attributes": [],
+			"style": {
+				"parent": "propalQuestion_container",
+				"style": {
+					"width": "100%",
+					"height": "15%",
+					"display": "flex",
+					"justify-content": "center",
+					"align-items": "center"
+				},
+				"text": "",
+				"textArray": []
+			}
+		},
+		{
+			"id": "btn_closeContainerPropalQuestion",
+			"tagName": "DIV",
+			"attributes": [],
+			"style": {
+				"parent": "lab_DIV_5302",
+				"style": {
+					"width": "30%",
+					"height": "60%",
+					"background-color": "rgb(252, 206, 92)",
+					"color": "rgb(60, 45, 135)",
+					"font-family": "Montserrat-Bold",
+					"font-size": "1.8svh",
+					"display": "flex",
+					"align-items": "center",
+					"justify-content": "center",
+					"border-top-left-radius": "15px",
+					"border-top-right-radius": "15px",
+					"border-bottom-right-radius": "15px",
+					"border-bottom-left-radius": "15px",
+					"cursor": "pointer"
+				},
+				"text": "Fermer",
 				"textArray": []
 			}
 		}

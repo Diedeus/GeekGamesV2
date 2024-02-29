@@ -356,3 +356,252 @@ fetch("../content/ressources/medias/adminQuizz/questionQuizz.json")
     });
   })
   
+
+
+                                            //* gestion des propositions de questions
+
+let notifPropalQuestion = document.querySelector('#notifPropalQuestion')
+let propalQuestion_container = document.querySelector('#propalQuestion_container')
+let btn_closeContainerPropalQuestion = document.querySelector('#btn_closeContainerPropalQuestion')
+
+let listPropalQuestion = document.querySelector('#ListPropalQuestion')
+let numberPropalQuestion = document.querySelector('#lab_P_6656')
+
+propalQuestion_container.style.display = 'none'
+
+notifPropalQuestion.addEventListener('click', function() {
+    propalQuestion_container.style.display = 'flex'
+})
+
+btn_closeContainerPropalQuestion.addEventListener('click', function(){
+    propalQuestion_container.style.display = 'none'
+})
+
+fetch("../content/ressources/medias/adminQuizz/propositionQuestionQuizz.json") 
+  .then(response => response.json()) 
+  .then(data => {
+
+    numberPropalQuestion.textContent = data.length
+
+     data.forEach((element) =>{
+        const propalQuestion_container = document.createElement('div')
+        propalQuestion_container.style.width = 96 + '%'
+        propalQuestion_container.style.height = 25 + 'svh'
+        propalQuestion_container.style.backgroundColor = 'white'
+        propalQuestion_container.style.display = 'flex'
+        propalQuestion_container.style.flexDirection = 'column'
+        propalQuestion_container.style.marginTop = 1 + 'svh'
+        propalQuestion_container.style.borderRadius = 10 + 'px'
+
+        listPropalQuestion.appendChild(propalQuestion_container)
+
+        const question_container = document.createElement('div')
+        question_container.style.width = 100 + '%'
+        question_container.style.height =  20 +'%'
+        question_container.style.backgroundColor = 'white'
+        question_container.style.display = 'flex'
+        question_container.style.alignItems = 'center'
+        question_container.style.justifyContent = 'center'
+        question_container.style.fontFamily = 'Montserrat-Bold'
+        question_container.style.color = '#3c2d87'
+        question_container.style.fontSize = 2 + 'svh'
+        question_container.textContent = element.questionPropose
+
+        propalQuestion_container.appendChild(question_container)
+
+        const reponseAB_container = document.createElement('div')
+        reponseAB_container.style.width = 100 + '%'
+        reponseAB_container.style.height = 20 + '%'
+        reponseAB_container.style.display = 'flex'
+        reponseAB_container.style.justifyContent = 'space-around'
+        reponseAB_container.style.alignItems = 'center'
+
+        propalQuestion_container.appendChild(reponseAB_container)
+
+        const reponseA_container = document.createElement('div')
+        reponseA_container.style.width = 40 + '%'
+        reponseA_container.style.display = 'flex'
+        reponseA_container.style.alignItems = 'center'
+        reponseA_container.style.justifyContent = 'center'
+        reponseA_container.style.fontFamily = 'Montserrat-Regular-(1)'
+        reponseA_container.style.height = 80 + '%'
+        reponseA_container.style.backgroundColor = 'rgb(252, 206, 92)'
+        reponseA_container.style.color = '#3c2d87'
+        reponseA_container.style.borderRadius = 15 + 'px'
+        reponseA_container.textContent = element.reponseAPropose
+
+        reponseAB_container.appendChild(reponseA_container)
+
+        const reponseB_container = document.createElement('div')
+        reponseB_container.style.width = 40 + '%'
+        reponseB_container.style.display = 'flex'
+        reponseB_container.style.alignItems = 'center'
+        reponseB_container.style.justifyContent = 'center'
+        reponseB_container.style.fontFamily = 'Montserrat-Regular-(1)'
+        reponseB_container.style.height = 80 + '%'
+        reponseB_container.style.backgroundColor = 'rgb(252, 206, 92)'
+        reponseB_container.style.color = '#3c2d87'
+        reponseB_container.style.borderRadius = 15 + 'px'
+        reponseB_container.textContent = element.reponseBPropose
+
+        reponseAB_container.appendChild(reponseB_container)
+
+        const reponseCD_container = document.createElement('div')
+        reponseCD_container.style.width = 100 + '%'
+        reponseCD_container.style.height = 20 + '%'
+        reponseCD_container.style.display = 'flex'
+        reponseCD_container.style.justifyContent = 'space-around'
+        reponseCD_container.style.alignItems = 'center'
+
+        propalQuestion_container.appendChild(reponseCD_container)
+
+        const reponseC_container = document.createElement('div')
+        reponseC_container.style.width = 40 + '%'
+        reponseC_container.style.display = 'flex'
+        reponseC_container.style.alignItems = 'center'
+        reponseC_container.style.justifyContent = 'center'
+        reponseC_container.style.fontFamily = 'Montserrat-Regular-(1)'
+        reponseC_container.style.height = 80 + '%'
+        reponseC_container.style.backgroundColor = 'rgb(252, 206, 92)'
+        reponseC_container.style.color = '#3c2d87'
+        reponseC_container.style.borderRadius = 15 + 'px'
+        reponseC_container.textContent = element.reponseCPropose
+
+        reponseCD_container.appendChild(reponseC_container)
+
+        const reponseD_container = document.createElement('div')
+        reponseD_container.style.width = 40 + '%'
+        reponseD_container.style.display = 'flex'
+        reponseD_container.style.alignItems = 'center'
+        reponseD_container.style.justifyContent = 'center'
+        reponseD_container.style.fontFamily = 'Montserrat-Regular-(1)'
+        reponseD_container.style.height = 80 + '%'
+        reponseD_container.style.backgroundColor = 'rgb(252, 206, 92)'
+        reponseD_container.style.color = '#3c2d87'
+        reponseD_container.style.borderRadius = 15 + 'px'
+        reponseD_container.textContent = element.reponseDPropose
+
+        reponseCD_container.appendChild(reponseD_container)
+
+        const reponseDiff_container = document.createElement('div')
+        reponseDiff_container.style.width = 100 + '%'
+        reponseDiff_container.style.height = 20 + '%'
+        reponseDiff_container.style.display = 'flex'
+        reponseDiff_container.style.justifyContent = 'space-around'
+        reponseDiff_container.style.alignItems = 'center'
+
+        propalQuestion_container.appendChild(reponseDiff_container)
+        
+        const reponse_container = document.createElement('div')
+        reponse_container.style.width = 40 + '%'
+        reponse_container.style.display = 'flex'
+        reponse_container.style.alignItems = 'center'
+        reponse_container.style.justifyContent = 'center'
+        reponse_container.style.fontFamily = 'Montserrat-Regular-(1)'
+        reponse_container.style.height = 80 + '%'
+        reponse_container.style.backgroundColor = 'rgb(252, 206, 92)'
+        reponse_container.style.color = '#3c2d87'
+        reponse_container.style.borderRadius = 15 + 'px'
+        reponse_container.textContent = element.reponsePropose
+        
+        reponseDiff_container.appendChild(reponse_container)
+
+        const difficulty_container = document.createElement('div')
+        difficulty_container.style.width = 40 + '%'
+        difficulty_container.style.display = 'flex'
+        difficulty_container.style.alignItems = 'center'
+        difficulty_container.style.justifyContent = 'center'
+        difficulty_container.style.fontFamily = 'Montserrat-Regular-(1)'
+        difficulty_container.style.height = 80 + '%'
+        difficulty_container.style.backgroundColor = 'rgb(252, 206, 92)'
+        difficulty_container.style.color = '#3c2d87'
+        difficulty_container.style.borderRadius = 15 + 'px'
+        difficulty_container.textContent = element.difficulty
+        
+        reponseDiff_container.appendChild(difficulty_container)
+
+        const btnPropal_container = document.createElement('div')
+        btnPropal_container.style.width = 100 + '%'
+        btnPropal_container.style.height = 20 + '%'
+        btnPropal_container.style.display = 'flex'
+        btnPropal_container.style.justifyContent = 'space-around'
+        btnPropal_container.style.alignItems = 'center'
+
+        propalQuestion_container.appendChild(btnPropal_container)
+
+        const btn_accepted = document.createElement('div')
+        btn_accepted.style.height = 80 + '%'
+        btn_accepted.style.backgroundColor = '#3c2d87'
+        btn_accepted.style.color = 'rgb(229, 175, 42)'
+        btn_accepted.style.borderRadius = 15 + 'px'
+        btn_accepted.style.width = 30 + '%'
+        btn_accepted.style.display = 'flex'
+        btn_accepted.style.alignItems = 'center'
+        btn_accepted.style.justifyContent = 'center'
+        btn_accepted.style.fontFamily = 'Montserrat-Regular-(1)'
+        btn_accepted.style.cursor = 'pointer'
+        btn_accepted.textContent = 'Accepter'
+
+        btnPropal_container.appendChild(btn_accepted)
+
+        btn_accepted.addEventListener('click', () => {
+            console.log(element)
+            socket.emit('questionPropalAccepted', element)
+            propalQuestion_container.remove()
+
+        })
+
+        const btn_updated = document.createElement('div')
+        btn_updated.style.height = 80 + '%'
+        btn_updated.style.backgroundColor = '#3c2d87'
+        btn_updated.style.color = 'rgb(229, 175, 42)'
+        btn_updated.style.borderRadius = 15 + 'px'
+        btn_updated.style.width = 30 + '%'
+        btn_updated.style.display = 'flex'
+        btn_updated.style.alignItems = 'center'
+        btn_updated.style.justifyContent = 'center'
+        btn_updated.style.fontFamily = 'Montserrat-Regular-(1)'
+        btn_updated.style.cursor = 'pointer'
+        btn_updated.textContent = 'Modifier'
+
+        btnPropal_container.appendChild(btn_updated)
+
+        btn_updated.addEventListener('click', () =>{
+            inputQuestion.value = element.questionPropose
+            inputResponseA.value = element.reponseAPropose
+            inputResponseB.value = element.reponseBPropose
+            inputResponseC.value = element.reponseCPropose
+            inputResponseD.value = element.reponseDPropose
+            inputResponse.value = element.reponsePropose
+            inputDifficulty.value = element.difficulty
+
+            propalQuestion_container.style.display = "none"
+            socket.emit('questionPropalSupprimer', element.question)
+            propalQuestion_container.remove()
+
+        })
+
+        const btn_deleted = document.createElement('div')
+        btn_deleted.style.height = 80 + '%'
+        btn_deleted.style.backgroundColor = '#3c2d87'
+        btn_deleted.style.color = 'rgb(229, 175, 42)'
+        btn_deleted.style.borderRadius = 15 + 'px'
+        btn_deleted.style.width = 30 + '%'
+        btn_deleted.style.display = 'flex'
+        btn_deleted.style.alignItems = 'center'
+        btn_deleted.style.justifyContent = 'center'
+        btn_deleted.style.fontFamily = 'Montserrat-Regular-(1)'
+        btn_deleted.style.cursor = 'pointer'
+        btn_deleted.textContent = 'Refuser'
+
+        btnPropal_container.appendChild(btn_deleted)
+
+        btn_deleted.addEventListener('click', () => {
+            socket.emit('questionPropalSupprimer', element.question)
+            propalQuestion_container.remove()
+        })
+        
+
+     })
+
+  })
